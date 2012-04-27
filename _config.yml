@@ -65,7 +65,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user: rubynoname
-twitter_tweet_count: 4
+twitter_tweet_count: 5
 twitter_show_replies: true
 twitter_follow_button: true
 twitter_show_follower_count: false
@@ -89,7 +89,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: rnp
 disqus_show_comment_count: false
 
 # Google Analytics
