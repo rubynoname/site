@@ -5,7 +5,7 @@ date: 2012-03-22 23:12:00 +0400
 comments: true
 published: true
 ---
-# Новости
+## Новости
 
 * Вышли [Rails 3.0.12](http://weblog.rubyonrails.org/2012/3/1/ann-rails-3-0-12-has-been-released), [3.1.4](http://weblog.rubyonrails.org/2012/3/1/ann-rails-3-1-4-has-been-released), [3.2.2](http://weblog.rubyonrails.org/2012/3/1/ann-rails-3-2-2-has-been-released)
 * Товарищ Константин, [О времени и о себе](http://rubysource.com/interview-with-konstantin-haase/). Кстати,
@@ -20,9 +20,9 @@ published: true
 * [Ruby 2.0 Enumerable::Lazy](http://blog.railsware.com/2012/03/13/ruby-2-0-enumerablelazy/)
 * [Except.io](http://except.io/) - сервис, аналогичный airbrake.io
 
-# Обсуждение
+## Обсуждение
 
-## Системы полнотекстового поиска
+### Системы полнотекстового поиска
 
 * [Sphinx](http://sphinxsearch.com/) - система полнотекстового поиска от Андрея Аксенова
 * [Full Text Search в Postgresql](http://www.postgresql.org/docs/9.1/interactive/textsearch.html) - система
@@ -31,7 +31,7 @@ published: true
 * [Solr](http://lucene.apache.org/solr/) - сервер полнотекстового поиска от Apache Foundation
 * [Lucene](http://lucene.apache.org/) - движок полнотекствого поиска от Apache Foundation
 
-## Срывая покровы с Ивана Самсонова
+### Срывая покровы с Ивана Самсонова
 
 * [Профиль Ивана на Моем Круге](http://samsonov-ivan.moikrug.ru/)
 * [Профиль Ивана на LinkedIn](http://www.linkedin.com/in/samsonovivan)

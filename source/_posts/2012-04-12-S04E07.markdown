@@ -5,7 +5,7 @@ date: 2012-04-12 19:07:00 +0400
 comments: true
 published: true
 ---
-# Новости
+## Новости
 * [Fork/Join](http://www.igvita.com/2012/02/29/work-stealing-and-recursive-partitioning-with-fork-join/) для JRuby
 * [Evan Phoenix уходит из Engine Yard](http://blog.fallingsnow.net/2012/03/28/a-new-door-opens/)
 * Скидка 1000 рублей на [devConf](http://devconf.ru/join/?coupon=railsclub)
@@ -18,19 +18,19 @@ published: true
 * [Ruby 1.8.7 and REE End of Life](http://www.engineyard.com/blog/2012/ruby-1-8-7-and-ree-end-of-life/)
 * Новый блог Расса Олсена [Без комментариев.](http://blog.russolsen.com/)
 
-# Специальный гость
+## Специальный гость
 
-## Леонид Никаноров
+### Леонид Никаноров
 
 * [Конкурс от Mail.ru](http://www.itmozg.ru/mailru/?utm_campaign=rnp) для всех любителей МакБуков
 * [Леонид на Моем круге](http://nikanorov-leonid.moikrug.ru/)
 
-# Обсуждение
+## Обсуждение
 
-## Fork/Join
+### Fork/Join
 * [Плохая статься в Wikipedia про дэк](http://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BA_(%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80\))
 
-## IDE и текстовые редакторы
+### IDE и текстовые редакторы
 
 * [Текстовый редактор Vim](http://www.vim.org/)
 * [Текствоый редактор Sublime Text 2](http://www.sublimetext.com/2)
