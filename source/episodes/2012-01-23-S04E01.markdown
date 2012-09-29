@@ -1,0 +1,45 @@
+---
+title: Ruby NoName Podcast S04E01
+date: 2012-01-23 12:42:00 +0400
+comments: true
+published: true
+---
+## Новости
+* [Puma web server](https://github.com/evanphx/puma)
+* [Rails/master is now 4.0.0.beta](http://weblog.rubyonrails.org/2011/12/20/rails-master-is-now-4-0-0-beta)
+* [Never create Ruby strings longer than 23 characters](http://patshaughnessy.net/2012/1/4/never-create-ruby-strings-longer-than-23-characters)
+* [Momentum, a SPDY Server](https://github.com/jonasschneider/momentum)
+* [MongodbLogger for Rails 3](http://mongodb-logger.catware.org/)
+* [Leopard - Васильев Алексей](http://leopard.in.ua/)
+* [Работа с Postgresql: настройка, масштабирование](http://postgresql.leopard.in.ua/)
+* [Ruby Warrior](http://www.trybloc.com/courses/ruby-warrior) is an open source game "designed to teach the Ruby language and artificial intelligence in a fun, interactive way.
+* [RSpec-2.8 is released!](http://blog.davidchelimsky.net/2012/01/04/rspec-28-is-released/)
+* [TextMate 2.0 Alpha](http://blog.macromates.com/2011/textmate-2-0-alpha/) and [Switching to Sublime Text 2](http://www.nickdesteffen.com/blog/switching-to-sublime-text-2)
+* [Syntastic](https://github.com/scrooloose/syntastic.git)
+* [Ресторанный критик](http://acrmp.github.com/foodcritic/)
+* [Слоупок атака](http://habrahabr.ru/blogs/infosecurity/135817/)
+* [Уязвимость в хэшах](http://www.ruby-lang.org/en/news/2011/12/28/denial-of-service-attack-was-found-for-rubys-hash-algorithm-cve-2011-4815/)
+* Rails on 5-th place in [2011 Open Source Adoption Trending Report](http://www.openlogic.com/news/press/01.04.12.php)
+* [A(n incomplete) Javascript implementation in Ruby!](https://github.com/charliesome/twostroke)
+
+## Обсуждение
+### Троли в гостях у RNP
+* [Стив Клабник продолжает вопрошать о мозге программера][1]. 
+[1]: http://blog.steveklabnik.com/posts/2011-12-30-active-record-considered-harmful "Практичный фреймворк и разжижение мозга"
+* [Sweet, sweet vindication](http://lostechies.com/chadmyers/2011/12/30/sweet-sweet-vindication/)
+* [FubuMVC](http://mvc.fubu-project.org/)
+* [Rails Has Turned Me Into a Cannibalizing Idiot](http://wekeroad.com/2012/01/03/rails-has-turned-me-into-a-cannibalizing-idiot/)
+
+Pavel Argentov интересуется:
+  "Кстати, дор.
+   редакция, а как вам вообще все эти теоретизации вокруг довольно
+   академических вопросов программирования, когда у всех умных уже степень,
+   работа и опцион, у глупых -- ruby-беллетристика на ночь, а совсем умные
+   сначала решите задачу Ферма, а потом себе перельманте ;-)"
+   
+   
+```
+:::ruby
+ruby -e 'def a;10.times{puts " "*rand(79)+"*"};end;99.times{a;puts " "*34+"Happy New Year 2012";a;sleep 0.1;puts "\e[2J"}'
+```
+(c) @CamilleRoux
