@@ -1,0 +1,33 @@
+@charset 'utf-8';
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 174px;
+  background: url('../images/header.jpg') no-repeat;
+}
+
+nav {
+  ul {
+    li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+}
+
+#main {
+  aside {
+    float: right;
+    width: 25%;
+  }
+
+  article {
+    float: left;
+    width: 75%;
+  }
+}
