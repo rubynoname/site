@@ -1,3 +1,5 @@
+require "lib/feed_helpers"
+
 activate :blog do |blog|
   blog.prefix = 'posts'
   blog.permalink = ':year/:title.html'
@@ -23,7 +25,8 @@ end
 # Per-page layout changes:
 #
 # With no layout
-# page "/path/to/file.html", :layout => false
+page "/feeds/episodes.rss", :layout => false
+page "/feeds/itunes.xml", :layout => false
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
@@ -45,12 +48,13 @@ end
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+helpers FeedHelpers
 # Methods defined in the helpers block are available in templates
 # helpers do
-#   def some_helper
-#     "Helping"
-#   end
+  
 # end
+
+set :site_url, "localhost:4567"
 
 set :css_dir, 'stylesheets'
 
