@@ -54,8 +54,6 @@ helpers FeedHelpers
   
 # end
 
-set :site_url, "localhost:4567"
-
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'

@@ -7,7 +7,7 @@ module FeedHelpers
       :title => "Ruby NoName podcast",
       :description => "Серия русскоязычных подкастов о языке Ruby",
       :author => "Иван Самсонов и Инван Евтухович",
-      :owner => {:author => "Иван Самсонов и Инван Евтухович", :email => "evtuhovich@gmail.com"},
+      :owner => {:author => "Иван Самсонов и Иван Евтухович", :email => "evtuhovich@gmail.com"},
       :contentType => {:term => "Podcast", :label => "Подкаст"},
       :categories => {"Technology" => ["Podcasting", "Tech News"]},
       :image => "#{site_url}/images/rnp.jpg"
