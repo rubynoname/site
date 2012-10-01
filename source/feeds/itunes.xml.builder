@@ -14,6 +14,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", :version
       xml.itunes :email, feed_data[:owner][:email]
     end
     xml.itunes :image, {:href => feed_data[:image]}
+    xml.itunes :explicit, feed_data[:explicit]
 
     ### Categories ###
     feed_data[:categories].each do |category|
@@ -29,9 +30,10 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", :version
         xml.item do
           xml.title  article.title
           xml.itunes :subtitle, article.data.subtitle || episode_data[:subtitle]
-          xml.itunes :image,    article.data.image    || episode_data[:image]
           xml.itunes :author,   article.data.author   || feed_data[:author]
           xml.itunes :keywords, article.data.keywords || episode_data[:keywords]
+
+          xml.itunes :image, { :href => article.data.image || episode_data[:image] }
          
           xml.itunes :duration, get_audio_duration("./source/mp3/#{get_mp3_filename(article.title)}")
             xml.enclosure({

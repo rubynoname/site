@@ -6,24 +6,24 @@ module FeedHelpers
     {
       :title => "Ruby NoName podcast",
       :description => "Серия русскоязычных подкастов о языке Ruby",
-      :author => "Иван Самсонов и Инван Евтухович",
+      :author => "Иван Самсонов и Иван Евтухович",
       :owner => {:author => "Иван Самсонов и Иван Евтухович", :email => "evtuhovich@gmail.com"},
-      :contentType => {:term => "Podcast", :label => "Подкаст"},
       :categories => {"Technology" => ["Podcasting", "Tech News"]},
-      :image => "#{site_url}/images/rnp.jpg"
+      :image => "#{site_url}/images/rnp.jpg",
+      :explicit => "no"
     }
   end
 
   def episode_data
     {
       :subtitle => "poscast.name = nil",
-      :image => "#{site_url}/images/rnp.jpg"
+      :image => "#{site_url}/images/rnp.jpg",
       :keywords => "Ruby, NoName"
     }
   end
   
   def site_url
-    % localhost:4567
+    "http://rubynoname.ru"
   end
 
   def get_mp3_filename(article_title)
@@ -31,7 +31,7 @@ module FeedHelpers
   end
 
   def get_audio_duration(path)
-    Mp3Info.open(path, :parse_tags => false) { |file| file.length }
+    Mp3Info.open(path, :parse_tags => false) { |file| Time.at(file.length).gmtime.strftime('%R:%S') }
   end
 
   def get_audio_size(path)
