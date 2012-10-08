@@ -21,9 +21,13 @@ module FeedHelpers
       :keywords => "Ruby, NoName"
     }
   end
-  
-  def site_url
-    "http://rubynoname.ru"
+
+  def site_url(protocol = 'http')
+    if development?
+      "#{protocol}://localhost:4567"
+    else
+      "#{protocol}://rubynoname.ru"
+    end
   end
 
   def get_mp3_filename(article_title)
