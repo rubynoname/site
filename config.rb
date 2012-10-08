@@ -3,6 +3,8 @@ require "lib/feed_helpers"
 activate :blog do |blog|
   blog.prefix = 'posts'
   blog.permalink = ':year/:title.html'
+  blog.paginate = true
+  blog.per_page = 3
 end
 
 ###
@@ -51,7 +53,7 @@ page "/feeds/itunes.xml", :layout => false
 helpers FeedHelpers
 # Methods defined in the helpers block are available in templates
 # helpers do
-  
+
 # end
 
 set :css_dir, 'stylesheets'

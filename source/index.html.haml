@@ -4,15 +4,18 @@ pageable: true
 per_page: 3
 ---
 
-- if paginate
-  %p
-    Page
-    = page_number
-    of
-    = num_pages
+- content_for :page_links do
+  - if paginate
+    - if prev_page
+      %span= link_to 'Назад', prev_page
 
-  - if prev_page
-    %p= link_to 'Previous page', prev_page
+    - (1..num_pages).to_a.each do |page_index|
+      %span= link_to page_index, page_index == 1 ? '/' : ['/page/', page_index, '/'].join
+
+    - if next_page
+      %span= link_to 'Далее', next_page
+
+= yield_content :page_links
 
 - page_articles.each_with_index do |article, i|
   %h2
@@ -20,6 +23,4 @@ per_page: 3
     %span= article.date.strftime('%b %e')
   %p= article.body
 
-- if paginate
-  - if next_page
-    %p= link_to 'Next page', next_page
+= yield_content :page_links
