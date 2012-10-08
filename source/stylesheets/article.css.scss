@@ -13,6 +13,7 @@
       display: inline-block;
       font-size: 26px;
       line-height: 29px;
+      border: none;
 
       &:hover {
         border: none;
@@ -42,6 +43,16 @@
 
     li:before {
       content: "\00BB \0020";
+    }
+  }
+
+  .links {
+    .go-more {
+      float: left;
+    }
+
+    .go-comments {
+      float: right;
     }
   }
 }

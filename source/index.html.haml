@@ -6,14 +6,15 @@ per_page: 3
 
 - content_for :page_links do
   - if paginate
-    - if prev_page
-      %span= link_to 'Назад', prev_page
+    .pagination
+      - if prev_page
+        %span= link_to 'Назад', prev_page
 
-    - (1..num_pages).to_a.each do |page_index|
-      %span{class: page_index == page_number ? 'active' : ''}= link_to page_index, page_index == 1 ? '/' : ['/page/', page_index, '/'].join
+      - (1..num_pages).to_a.each do |page_index|
+        %span{class: page_index == page_number ? 'active' : ''}= link_to page_index, page_index == 1 ? '/' : ['/page/', page_index, '/'].join
 
-    - if next_page
-      %span= link_to 'Далее', next_page
+      - if next_page
+        %span= link_to 'Далее', next_page
 
 - page_articles.each_with_index do |article, i|
   %article
@@ -21,6 +22,8 @@ per_page: 3
       = link_to article.title, article
       %span= Russian::strftime(article.date, '%B %e, %Y')
     = article.summary
-    = link_to 'Подробнее', article
+    .links.clearfix
+      = link_to 'Комментарии', article, class: 'go-comments'
+      = link_to 'Подробнее', article, class: 'go-more'
 
 = yield_content :page_links

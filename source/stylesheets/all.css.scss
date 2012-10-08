@@ -24,6 +24,7 @@
 a {
   text-decoration: none;
   color: #1D95CB;
+  border-bottom: 1px #FFF dashed;
 
   &:hover {
     border-bottom: 1px dashed;
@@ -41,6 +42,8 @@ body {
   background-image: url('../images/background.png');
   font-family: Casper, 'Helvetica Neue',Helvetica,Arial,sans-serif;
   color: #333;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 header {
@@ -89,6 +92,7 @@ nav {
         text-decoration: none;
         color: #3B3B3B;
         padding: 20px 30px;
+        border: none;
 
         &:hover {
           border: none;
@@ -102,7 +106,7 @@ nav {
       &.search {
         float: right;
         cursor: auto;
-        margin-right: 50px;
+        margin-right: 40px;
         border-right: none;
 
         &:hover {
@@ -183,21 +187,57 @@ nav {
     h2 {
       font-size: 16px;
       text-transform: uppercase;
-      margin: 25px 0 0 10px;
       padding: 0;
       margin: 25px 0 0 10px;
     }
 
     ul {
       list-style-type: none;
-      padding-left: 20px;
+      padding-left: 10px;
       margin: 10px 0;
+    }
+
+    .subscribe {
+      margin: 15px 40px 0 10px;
+      text-align: center;
+
+      > a {
+        border: none;
+        margin: 5px;
+
+        &:hover {
+          border: none;
+        }
+
+        img {
+          width: 48px;
+        }
+      }
+    }
+
+    .twitter-widget {
+      margin: 30px 30px 0 10px;
     }
   }
 
   .wrap {
     float: left;
-    padding: 20px 30px 10px 55px;
+    padding: 20px 30px 60px 55px;
     width: 600px;
+  }
+
+  .pagination {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    > span a {
+      margin: 0 6px;
+    }
+
+    > span.active a {
+      color: #333;
+    }
   }
 }
