@@ -19,13 +19,12 @@
 
       .wrap
         %article{itemscope: '', itemtype: 'http://schema.org/Article'}
-          %meta{itemprop: 'name headline', content: data.page.title}
           %div{itemprop: 'author', itemscope: '', itemtype: 'http://schema.org/Person'}
             %meta{itemprop: 'name', content: 'Ruby NoName Podcast'}
-            %meta{itemprop: 'url', content: 'http://3vuj.localtunnel.com/'}
-            %meta{itemprop: 'image', content: 'http://3vuj.localtunnel.com/images/logo_64.png'}
+            %meta{itemprop: 'url', content: site_url}
+            %meta{itemprop: 'image', content: site_url + '/images/logo_64.png'}
           %h1
-            = link_to data.page.title, '/' + request.path
+            = link_to data.page.title, '/' + request.path, {itemprop: 'name headline'}
             %time{itemprop: 'datePublished', datetime: data.page.date.strftime('%Y-%m-%dT%H:%M')}= Russian::strftime(data.page.date, '%B %e, %Y')
           .body{itemprop: 'articleBody'}
             = yield
