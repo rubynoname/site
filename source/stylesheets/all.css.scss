@@ -1,33 +1,168 @@
 @charset 'utf-8';
 
+.clearfix {
+  zoom:1;
+  &:before, &:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin gradient($startColor, $endColor) {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, $startColor), color-stop(100%, $endColor));
+  background: -webkit-linear-gradient(top, $startColor 40%, $endColor 100%);
+  background: -moz-linear-gradient(top, $startColor 40%, $endColor 100%);
+  background: linear-gradient(top, $startColor 40%, $endColor 100%);
+}
+
 body {
   width: 960px;
   margin: 0 auto;
+  background: #DEDEDE;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: #333;
 }
 
 header {
   width: 100%;
   height: 174px;
   background: url('../images/header.jpg') no-repeat;
+  border-left: 1px solid #B8B8B8;
+  border-right: 1px solid #B8B8B8;
+  -webkit-box-shadow: 0 0 5px 1px #C7C7C7;
+  -moz-box-shadow: 0 0 5px 1px #C7C7C7;
+  box-shadow: 0 0 5px 1px #C7C7C7;
+  width: 958px;
 }
 
 nav {
+  @extend .clearfix;
+  height: 50px;
+  position: relative;
+  z-index: 10;
+  border-left: 1px solid #B8B8B8;
+  border-right: 1px solid #B8B8B8;
+  -webkit-box-shadow: 0 0 5px 1px #C7C7C7;
+  -moz-box-shadow: 0 0 5px 1px #C7C7C7;
+  box-shadow: 0 0 5px 1px #C7C7C7;
+
   ul {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #D1D1D1;
+    height: 53px;
+
+    background: white;
+    @include gradient(white, #F3F3F3);
+
     li {
-      display: inline-block;
-      margin-right: 20px;
+      height: 100%;
+      padding: 0 30px;
+      text-align: center;
+      border-right: 1px solid #DEDEDE;
+      float: left;
+      cursor: pointer;
+
+      a {
+        text-transform: uppercase;
+        line-height: 53px;
+        font-size: 13px;
+        text-decoration: none;
+        color: #3B3B3B;
+      }
+
+      &:hover {
+        @include gradient(whitesmoke, #E3E3E3);
+      }
+
+      &.search {
+        float: right;
+        cursor: auto;
+
+        &:hover {
+          @include gradient(white, #F3F3F3);
+        }
+
+        .wrap {
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+          background: transparent;
+          border: none;
+
+          margin-top: 14px;
+          -moz-border-radius: 2px;
+          border-radius: 2px;
+
+          input {
+            outline: none;
+
+            box-shadow: 0 4px 5px -5px rgba(0, 0, 0, 0.3) inset;
+            border-color: #CFCFCF;
+            display: block;
+
+            -moz-transition: width 0.2s ease 0s, background-color 0.2s ease 0s;
+            background-color: #FFFFFF;
+            background-image: url("../images/search.png");
+            background-position: 6px 6px;
+            background-repeat: no-repeat;
+            border-radius: 13px 13px 13px 13px;
+            font-size: 12px;
+            height: 17px;
+            line-height: normal;
+            padding: 4px 4px 4px 24px;
+            position: relative;
+            text-indent: 0;
+            width: auto;
+            border: 1px solid #ACACAC;
+
+            color: #919191;
+
+            width: 144px;
+
+            &:focus {
+              background: white;
+              border: 1px solid #4D8DFF;
+
+              background-image: url("../images/search.png");
+              border-color: #3E75FF;
+              -webkit-box-shadow: 0 0 3px rgba(62, 117, 255, 0.7), 0 4px 5px -5px rgba(0, 0, 0, 0.2) inset;
+              -moz-box-shadow: 0 0 3px rgba(62, 117, 255, 0.7), 0 4px 5px -5px rgba(0, 0, 0, 0.2) inset;
+              box-shadow: 0 0 3px rgba(62, 117, 255, 0.7), 0 4px 5px -5px rgba(0, 0, 0, 0.2) inset;
+              background-repeat: no-repeat;
+              background-position: 6px 6px;
+            }
+          }
+        }
+      }
     }
   }
 }
 
 #main {
+  @extend .clearfix;
+  background-color: white;
+  border-left: 1px solid #B8B8B8;
+  border-right: 1px solid #B8B8B8;
+  border-bottom: 1px solid #B8B8B8;
+  -webkit-box-shadow: 0 0 5px 1px #C7C7C7;
+  -moz-box-shadow: 0 0 5px 1px #C7C7C7;
+  box-shadow: 0 0 5px 1px #C7C7C7;
+  padding: 5px 0;
+
   aside {
     float: right;
-    width: 25%;
+    width: 270px;
   }
 
   article {
     float: left;
-    width: 75%;
+    padding: 20px 30px 10px;
+    width: 625px;
   }
 }
