@@ -1,4 +1,5 @@
 ---
+layout: article
 title: Ruby NoName Podcast S04E03
 date: 2012-02-16 22:58:00 +0400
 comments: true
@@ -15,6 +16,8 @@ published: true
 [подкаст Ruby Rogues](http://rubyrogues.com/)
 * 7 февраля вышел [Sidekiq](http://mperham.github.com/sidekiq/) — библиотека для обработки фоновых событий
 * 12 февраля вышел [Split 0.3.2](http://www.rubyflow.com/items/7194-split-0-3-2-released) библиотека для A/B тестирования
+
+READMORE
 
 ## Обсуждение
 * [Ruboto](http://rubysource.com/ruboto-rubys-and-androids-first-born/)

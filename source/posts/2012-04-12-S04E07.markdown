@@ -1,4 +1,5 @@
 ---
+layout: article
 title: Ruby NoName Podcast S04E07
 date: 2012-04-12 19:07:00 +0400
 comments: true
@@ -16,6 +17,8 @@ published: true
 * [Future of MacRuby](http://lists.macosforge.org/pipermail/macruby-devel/2012-April/008685.html)
 * [Ruby 1.8.7 and REE End of Life](http://www.engineyard.com/blog/2012/ruby-1-8-7-and-ree-end-of-life/)
 * Новый блог Расса Олсена [Без комментариев.](http://blog.russolsen.com/)
+
+READMORE
 
 ## Специальный гость
 

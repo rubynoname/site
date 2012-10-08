@@ -1,4 +1,5 @@
 @charset 'utf-8';
+@import "fonts";
 
 .clearfix {
   zoom:1;
@@ -20,11 +21,25 @@
   background: linear-gradient(top, $startColor 40%, $endColor 100%);
 }
 
+a {
+  text-decoration: none;
+  color: #1D95CB;
+
+  &:hover {
+    border-bottom: 1px dashed;
+  }
+
+  &:visited {
+    color: #1D95CB;
+  }
+}
+
 body {
   width: 960px;
   margin: 0 auto;
   background: #DEDEDE;
-  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  background-image: url('../images/background.png');
+  font-family: Casper, 'Helvetica Neue',Helvetica,Arial,sans-serif;
   color: #333;
 }
 
@@ -74,6 +89,10 @@ nav {
         text-decoration: none;
         color: #3B3B3B;
         padding: 20px 30px;
+
+        &:hover {
+          border: none;
+        }
       }
 
       &:hover {
@@ -120,12 +139,11 @@ nav {
             padding: 4px 4px 4px 24px;
             position: relative;
             text-indent: 0;
-            width: auto;
             border: 1px solid #ACACAC;
 
             color: #919191;
 
-            width: 144px;
+            width: 300px;
 
             &:focus {
               background: white;
@@ -156,15 +174,30 @@ nav {
   -moz-box-shadow: 0 0 5px 1px #C7C7C7;
   box-shadow: 0 0 5px 1px #C7C7C7;
   padding: 5px 0;
+  margin-bottom: 60px;
 
   aside {
     float: right;
     width: 270px;
+
+    h2 {
+      font-size: 16px;
+      text-transform: uppercase;
+      margin: 25px 0 0 10px;
+      padding: 0;
+      margin: 25px 0 0 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 20px;
+      margin: 10px 0;
+    }
   }
 
-  article {
+  .wrap {
     float: left;
-    padding: 20px 30px 10px;
-    width: 625px;
+    padding: 20px 30px 10px 55px;
+    width: 600px;
   }
 }

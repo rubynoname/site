@@ -1,4 +1,5 @@
 ---
+layout: article
 title: Ruby NoName Podcast S04E04
 date: 2012-03-04 22:25:00 +0400
 comments: true
@@ -14,6 +15,8 @@ published: true
 * ["MicroGems: five minute RubyGems"](http://jeffkreeftmeijer.com/2011/microgems-five-minute-rubygems)
 * 22 февраля вышел [JRuby 1.6.7](http://jruby.org/2012/02/22/jruby-1-6-7.html)
 * 23 февраля вышел [SimpleForm 2.0](http://blog.plataformatec.com.br/2012/02/simpleform-2-0-bootstrap-for-you-with-love/)
+
+READMORE
 
 ## Обсуждение
 

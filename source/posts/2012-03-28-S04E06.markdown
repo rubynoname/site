@@ -1,4 +1,5 @@
 ---
+layout: article
 title: Ruby NoName Podcast S04E06
 date: 2012-03-28 17:50:00 +0400
 comments: true
@@ -13,6 +14,8 @@ published: true
 * [Валидация на грани фола](http://habrahabr.ru/post/140684/) - статья на харбре про валидацию
 * 23 марта вышел [Factory Girl 3.0](http://robots.thoughtbot.com/post/19412394597/factory-girl-hits-3-0)
 * 17 марта вышел [Rspec 2.9.0](http://blog.davidchelimsky.net/2012/03/17/rspec-290-is-released/)
+
+READMORE
 
 ## Специальный гость
 

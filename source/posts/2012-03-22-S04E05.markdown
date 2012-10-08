@@ -1,4 +1,5 @@
 ---
+layout: article
 title: Ruby NoName Podcast S04E05
 date: 2012-03-22 23:12:00 +0400
 comments: true
@@ -18,6 +19,8 @@ published: true
 * [Lightrail](https://github.com/lightness/lightrail) - легкий rails-стэк для json приложений
 * [Ruby 2.0 Enumerable::Lazy](http://blog.railsware.com/2012/03/13/ruby-2-0-enumerablelazy/)
 * [Except.io](http://except.io/) - сервис, аналогичный airbrake.io
+
+READMORE
 
 ## Обсуждение
 

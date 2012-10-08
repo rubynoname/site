@@ -1,10 +1,10 @@
 ---
+layout: article
 title: Ruby NoName Podcast S04E08
 date: 2012-04-27 19:07:00 +0400
 comments: true
 published: true
 ---
-
 ## Новости
 * [SMT_rails - Shared Mustache Templates for Rails 3](http://blog.railsware.com/2012/04/12/shared-mustache-templates-for-rails-3/) шарим темплейты между Ruby и JavaScript. [Пример приложения](http://smt-rails-example.herokuapp.com/) - первые 10 продуктов генерится на сервере, следующие по скролу (scroll pagination) загружаются через JS. Для обоих используется один темплейт.
 * Вышла книга [The dRuby Book: Distributed and Parallel Computing with Ruby](http://blog.new-bamboo.co.uk/2012/04/11/the-druby-book-distributed-and-parallel-computing-with-ruby-is-finally-out)
@@ -14,6 +14,8 @@ published: true
 * Вышло расширение к Chrome [CoffeeConsole](http://snook.ca/archives/browsers/coffeeconsole)
 * [mruby](http://matt.aimonetti.net/posts/2012/04/20/mruby-and-mobiruby/) and [MobiRuby](http://mobiruby.org/)
 * 19 и 20 мая [Brainwashing](http://brainwashing.pro/rails)
+
+READMORE
 
 ## Обсуждение
 
