@@ -62,7 +62,6 @@ nav {
 
     li {
       height: 100%;
-      padding: 0 30px;
       text-align: center;
       border-right: 1px solid #DEDEDE;
       float: left;
@@ -74,6 +73,7 @@ nav {
         font-size: 13px;
         text-decoration: none;
         color: #3B3B3B;
+        padding: 20px 30px;
       }
 
       &:hover {
@@ -83,6 +83,8 @@ nav {
       &.search {
         float: right;
         cursor: auto;
+        margin-right: 50px;
+        border-right: none;
 
         &:hover {
           @include gradient(white, #F3F3F3);
