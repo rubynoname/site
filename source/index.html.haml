@@ -20,7 +20,7 @@ per_page: 3
   %article
     %h1
       = link_to article.title, article
-      %span= Russian::strftime(article.date, '%B %e, %Y')
+      %time= Russian::strftime(article.date, '%B %e, %Y')
     = article.summary
     .links.clearfix
       = link_to 'Комментарии', article, class: 'go-comments'
