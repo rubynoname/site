@@ -1,4 +1,5 @@
-require "lib/feed_helpers"
+require 'lib/feed_helpers'
+require 'mp3info'
 
 activate :blog do |blog|
   blog.prefix = 'posts'
@@ -29,6 +30,7 @@ end
 # With no layout
 page "/feeds/episodes.rss", :layout => false
 page "/feeds/itunes.xml", :layout => false
+page "/archive", :proxy => "/archive.html"
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
@@ -52,9 +54,31 @@ page "/feeds/itunes.xml", :layout => false
 
 helpers FeedHelpers
 # Methods defined in the helpers block are available in templates
-# helpers do
+helpers do
+  def site_url(protocol = 'http')
+    if development?
+      "#{protocol}://localhost:4567"
+    else
+      "#{protocol}://rubynoname.ru"
+    end
+  end
 
-# end
+  def mp3file_exist?(article_title)
+    File.exist?("./source/mp3/#{get_mp3_filename(article_title)}")
+  end
+
+  def get_mp3_filename(article_title)
+    article_title.split(" ").last + ".mp3"
+  end
+
+  def get_audio_duration(path)
+    Mp3Info.open(path, :parse_tags => false) { |file| Time.at(file.length).gmtime.strftime('%R:%S') }
+  end
+
+  def get_audio_size(path)
+    File.size(path)
+  end  
+end
 
 set :css_dir, 'stylesheets'
 
