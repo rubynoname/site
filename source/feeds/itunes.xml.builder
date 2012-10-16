@@ -25,7 +25,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", :version
 
     ### Episodes ###
     blog.articles.each do |article|
-      if File.exist?("./source/mp3/#{get_mp3_filename(article.title)}")
+      if mp3file_exist?(article.title)
         
         xml.item do
           xml.title  article.title
@@ -46,7 +46,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", :version
           xml.guid "#{site_url}/mp3/#{get_mp3_filename(article.title)}"
         end # item
 
-      end # File.exists?
+      end # mp3file_exists?
     end # blog.articles.each
 
   end # channel
