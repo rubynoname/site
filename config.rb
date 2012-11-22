@@ -68,7 +68,7 @@ helpers do
   end
 
   def get_mp3_filename(article_title)
-    article_title.split(" ").last + ".mp3"
+    article_title.split(" ").last.downcase + ".mp3"
   end
 
   def get_audio_duration(path)
@@ -77,7 +77,7 @@ helpers do
 
   def get_audio_size(path)
     File.size(path)
-  end  
+  end
 end
 
 set :css_dir, 'stylesheets'
