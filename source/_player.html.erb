@@ -1,0 +1,16 @@
+<%= javascript_include_tag 'player' %>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.body').prepend('<div class="speakkerSmall"></div>')
+
+    $('.speakkerSmall').speakker({
+      poster: '/images/rnp.png',
+      title: '<%= title %>',
+      file: '<%= file %>',
+      theme: 'light',
+      facebook_text:"Another RubyNoName podcast! Check this out.",
+      twitter_text:"Another RubyNoName podcast! Check this out.",
+    });
+  });
+</script>
