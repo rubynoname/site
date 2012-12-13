@@ -23,7 +23,6 @@ per_page: 3
       %time= Russian::strftime(article.date, '%B %e, %Y')
     = article.summary
     .links.clearfix
-      = link_to 'Комментарии', article, class: 'go-comments'
-      = link_to 'Подробнее', article, class: 'go-more'
+      = link_to 'Подробнее...', article, class: 'go-more'
 
 = yield_content :page_links
