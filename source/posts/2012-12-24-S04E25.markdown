@@ -6,10 +6,9 @@ comments: true
 published: true
 
 ---
-# Новости
+## Новости
 * [Дэвид Челимски передает права Rspec Lead](http://blog.davidchelimsky.net/2012/11/28/myron-marston-and-andy-lindeman-are-rspecs-new-project-leads/)
-* [Будующее Ruby](http://nathany.com/ruby-design) и [статья от Brian Ford](http://brixen.io/2012/12/11/a-ruby-design-process)
-  + [тикет в официальном редмайне Ruby](http://bugs.ruby-lang.org/issues/7549)
+* [Будущее Ruby](http://nathany.com/ruby-design) и [статья от Brian Ford](http://brixen.io/2012/12/11/a-ruby-design-process) + [тикет в официальном редмайне Ruby](http://bugs.ruby-lang.org/issues/7549)
 * [Почему надо компилировать руби с -O3](http://spin.atomicobject.com/2012/11/06/is-your-application-running-with-ruby-slow/)
 * [Сравнение ОО моделей в Ruby и JavaScript](http://stantona.github.com/blog/2012/12/12/a-tale-of-two-object-models-javascript-and-ruby/)
 * [Почему НЕ надо компилировать руби с -O3](https://twitter.com/joedamato/status/274251373904818176) ([тут подробнее](http://timetobleed.com/the-broken-promises-of-mrireeyarv/))
@@ -25,7 +24,7 @@ published: true
 * [Возвращение блудного RubyRacer](http://blog.thefrontside.net/2012/12/04/therubyracer-rides-again/)
 * [Более лучше выводить ошибки](https://github.com/charliesome/better_errors)
 
-# Обсуждение
+## Обсуждение
 
 * [Конференция Railsclub в Ульяновске](http://railsclub.ru)
 * [Владимир Ильич Ленин](http://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD)
@@ -33,7 +32,7 @@ published: true
 * [Кирилл Мокевнин](http://mokevnin.moikrug.ru/)
 * [Материалы выступления Ивана Евтуховича в Ульяновске](http://blog.evtuhovich.ru/blog/2012/12/18/railsclub-ulsk/)
 
-## Интервью и Игорем Александровым
+### Интервью и Игорем Александровым
 
 * [Компания Игоря JetRockets](http://www.jetrockets.ru/)
 * [Проект sdelki.ru](http://sdelki.ru)
