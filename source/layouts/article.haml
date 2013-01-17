@@ -28,6 +28,8 @@
             %time{itemprop: 'datePublished', datetime: data.page.date.strftime('%Y-%m-%dT%H:%M')}= Russian::strftime(data.page.date, '%B %e, %Y')
           .body{itemprop: 'articleBody'}
             -if mp3file_exist?(data.page.title)
+              .mp3
+                %a(href="/mp3/#{get_mp3_filename(data.page.title)}") скачать mp3
               = partial 'player2', :locals => { :title => data.page.title, :file => "/mp3/#{get_mp3_filename(data.page.title)}"}
 
             = yield

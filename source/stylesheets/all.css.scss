@@ -248,4 +248,10 @@ nav {
       color: #333;
     }
   }
+  .mp3 {
+    text-align: right;
+    > a {
+      font-size: 80%;
+    }
+  }
 }
