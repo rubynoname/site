@@ -55,4 +55,14 @@
       float: right;
     }
   }
+  .player {
+    li:before {
+      content: '';
+    }
+
+    a {
+      border-bottom: none;
+    }
+  }
 }
+

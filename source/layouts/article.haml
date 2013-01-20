@@ -7,8 +7,9 @@
       = data.page.title || 'RubyNoName'
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    = stylesheet_link_tag 'normalize', 'all', 'article', 'speakker', 'mspeakker'
-
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jplayer/jquery.jplayer.min.js"></script>
+    = stylesheet_link_tag 'normalize', 'all', 'article', 'speakker', 'mspeakker', 'jplayer/jplayer.blue.monday.css'
   %body{class: page_classes}
     %header
       %span.title Русскоязычный подкаст о языке Ruby
@@ -30,7 +31,8 @@
             -if mp3file_exist?(data.page.title)
               .mp3
                 %a(href="/mp3/#{get_mp3_filename(data.page.title)}") скачать mp3
-              = partial 'player2', :locals => { :title => data.page.title, :file => "/mp3/#{get_mp3_filename(data.page.title)}"}
+              .player
+                = partial 'player', :locals => { :title => data.page.title, :file => "/mp3/#{get_mp3_filename(data.page.title)}"}
 
             = yield
         #disqus_thread
