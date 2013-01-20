@@ -6,10 +6,11 @@
     %title
       = data.page.title || 'RubyNoName'
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    = stylesheet_link_tag 'normalize', 'all', 'article', 'speakker', 'mspeakker', 'jplayer/jplayer.blue.monday.css'
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
     <script type="text/javascript" src="/javascripts/jplayer/jquery.jplayer.min.js"></script>
-    = stylesheet_link_tag 'normalize', 'all', 'article', 'speakker', 'mspeakker', 'jplayer/jplayer.blue.monday.css'
+    = partial 'google_analytics'
   %body{class: page_classes}
     %header
       %span.title Русскоязычный подкаст о языке Ruby
@@ -52,4 +53,3 @@
         %a(href="http://disqus.com" class="dsq-brlink")
           comments powered by
           %span.logo-disqus Disqus
-    = partial 'google_analytics'
