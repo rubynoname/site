@@ -6,5 +6,5 @@
       = link_to 'Архив выпусков', '/archive.html'
     %li.search
       .wrap
-        <input type="text" placeholder="Поиск..." value="" onsubmit="return false;" id="st-search-input" class="" name="st-search-input">
-        #st-results-container
+        %form(action="/results.html")
+          <input type="text" placeholder="Поиск..." value="" class="" name="q">
