@@ -16,7 +16,7 @@ published: true
   [бенчмарки](http://www.superpumpup.com/ruby-2-load-rails-twice-as-fast)
 * [Конкуренты нашего подкаста](http://www.rwpod.com/)
 * [multipart аплоад на S3](http://blog.bitcast.io/post/43001057745/direct-multipart-uploads-to-s3-in-rails)
-* [Интервью в Лорентом Сансонетти](http://rubysource.com/getting-to-know-rubymotion-with-laurent-sansonetti/) в [двух
+* [Интервью с Лорентом Сансонетти](http://rubysource.com/getting-to-know-rubymotion-with-laurent-sansonetti/) в [двух
   частях](http://rubysource.com/laurent-sansonetti-on-rubymotion-internals/)
 * [Книга Working with ruby threads](http://www.workingwithrubythreads.com/)
   и [статья](http://www.jstorimer.com/newsletter/ruby-core-classes-arent-thread-safe.html) про то,
