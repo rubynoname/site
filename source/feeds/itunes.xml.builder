@@ -26,15 +26,16 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", :version
     ### Episodes ###
     blog.articles.each do |article|
       if mp3file_exist?(article.title)
-        
+
         xml.item do
           xml.title  article.title
+          xml.description  article.body
           xml.itunes :subtitle, article.data.subtitle || episode_data[:subtitle]
           xml.itunes :author,   article.data.author   || feed_data[:author]
           xml.itunes :keywords, article.data.keywords || episode_data[:keywords]
 
           xml.itunes :image, { :href => article.data.image || episode_data[:image] }
-         
+
           xml.itunes :duration, get_audio_duration("./source/mp3/#{get_mp3_filename(article.title)}")
             xml.enclosure({
               :url => "#{site_url}/mp3/#{get_mp3_filename(article.title)}", 
