@@ -1,4 +1,3 @@
-require 'rvm/capistrano'
 require 'fog'
 
 set :aws_bucket, "rubynoname-ru"
