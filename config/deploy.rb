@@ -1,6 +1,6 @@
 require 'fog'
 
-set :aws_bucket, "rubynoname-ru"
+set :aws_bucket, "rubynoname.ru"
 
 namespace :deploy do
 
