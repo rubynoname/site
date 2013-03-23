@@ -9,7 +9,7 @@ namespace :deploy do
     storages = [
             {
               :provider => 'AWS',
-              :host => "stage.storage.io",
+              :host => "storage.io",
               :aws_access_key_id => ENV['ES3_ACCESS_KEY'],
               :aws_secret_access_key => ENV['ES3_SECRET_KEY']
             },
