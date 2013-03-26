@@ -8,6 +8,7 @@ activate :blog do |blog|
   blog.per_page = 3
 end
 
+activate :cache_buster
 ###
 # Compass
 ###
