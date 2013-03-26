@@ -2,11 +2,11 @@
   %h2 Подписаться
   .subscribe
     %a{href: "https://itunes.apple.com/us/podcast/ruby-noname-podcast/id581390515", class: "itunes"}
-      %img{src: "/images/icons/itunes.png", alt: "iTunes"}
+      = image_tag(image_path("/images/icons/itunes.png"), :alt => "iTunes")
     %a{href: "http://twitter.com/rubynoname", class: "twitter"}
-      %img{src: "/images/icons/twitter.png", alt: "Twitter"}
+      = image_tag(image_path("/images/icons/twitter.png"), :alt => "Twitter")
     %a{href: "/feeds/episodes.rss", class: "rss"}
-      %img{src: "/images/icons/rss.png", alt: "RSS"}
+      = image_tag(image_path("/images/icons/rss.png"), :alt => "RSS")
 .block
   %h2 Последние выпуски
   %ul

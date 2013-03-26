@@ -39,7 +39,7 @@ body {
   width: 960px;
   margin: 0 auto;
   background: #DEDEDE;
-  background-image: url('/images/background.png');
+  background-image: image-url('/images/background.png');
   font-family: Casper, 'Helvetica Neue',Helvetica,Arial,sans-serif;
   color: #333;
   font-size: 16px;
@@ -141,7 +141,7 @@ nav {
 
             -moz-transition: width 0.2s ease 0s, background-color 0.2s ease 0s;
             background-color: #FFFFFF;
-            background-image: url("/images/search.png");
+            background-image: image-url("/images/search.png");
             background-position: 6px 6px;
             background-repeat: no-repeat;
             border-radius: 13px 13px 13px 13px;
@@ -161,7 +161,7 @@ nav {
               background: white;
               border: 1px solid #4D8DFF;
 
-              background-image: url("/images/search.png");
+              background-image: image-url("/images/search.png");
               border-color: #3E75FF;
               -webkit-box-shadow: 0 0 3px rgba(62, 117, 255, 0.7), 0 4px 5px -5px rgba(0, 0, 0, 0.2) inset;
               -moz-box-shadow: 0 0 3px rgba(62, 117, 255, 0.7), 0 4px 5px -5px rgba(0, 0, 0, 0.2) inset;

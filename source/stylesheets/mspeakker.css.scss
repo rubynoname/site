@@ -161,7 +161,7 @@ PORKHEAD.ORG AND PROJEKKTOR.COM 2011
 	text-indent:-99999px;
 }
 .mspeakker .skLabel {
-	background:transparent url('/images/speakker/ms-label.png') left top no-repeat;
+	background:transparent image-url('/images/speakker/ms-label.png') left top no-repeat;
 	width:78px;
 	height:61px;
 	position:absolute;
@@ -170,7 +170,7 @@ PORKHEAD.ORG AND PROJEKKTOR.COM 2011
 	z-index:0;
 }
 .mspeakker .skCover {
-	background:transparent url('/images/speakker/sk-nocover.png') left top no-repeat;
+	background:transparent image-url('/images/speakker/sk-nocover.png') left top no-repeat;
 	width:60px;
 	height:60px;
 	overflow:hidden;
@@ -258,10 +258,10 @@ PORKHEAD.ORG AND PROJEKKTOR.COM 2011
 .mspeakker.light .skPause,
 .mspeakker.light .skDownload,
 .mspeakker.light .skFacebook,
-.mspeakker.light .skTwitter { background-image: url('/images/speakker/light/sk-light.png'); }
-.mspeakker.light .skLeftBlock { background-image: url('/images/speakker/light/sk-leftblock.png'); }
-.mspeakker.light .skRightBlock { background-image: url('/images/speakker/light/sk-rightblock.png'); }
-.mspeakker.light .skControls { background-image:url('/images/speakker/light/sk-controlbg.png'); }
+.mspeakker.light .skTwitter { background-image: image-url('/images/speakker/light/sk-light.png'); }
+.mspeakker.light .skLeftBlock { background-image: image-url('/images/speakker/light/sk-leftblock.png'); }
+.mspeakker.light .skRightBlock { background-image: image-url('/images/speakker/light/sk-rightblock.png'); }
+.mspeakker.light .skControls { background-image: image-url('/images/speakker/light/sk-controlbg.png'); }
 
 /* THEME DARK */
 .mspeakker.dark .skBackwards,
@@ -272,10 +272,10 @@ PORKHEAD.ORG AND PROJEKKTOR.COM 2011
 .mspeakker.dark .skPause,
 .mspeakker.dark .skDownload,
 .mspeakker.dark .skFacebook,
-.mspeakker.dark .skTwitter { background-image: url('/images/speakker/dark/sk-dark.png'); }
-.mspeakker.dark .skLeftBlock { background-image: url('/images/speakker/dark/sk-leftblock.png'); }
-.mspeakker.dark .skRightBlock { background-image: url('/images/speakker/dark/sk-rightblock.png'); }
-.mspeakker.dark .skControls { background-image:url('/images/speakker/dark/sk-controlbg.png'); }
+.mspeakker.dark .skTwitter { background-image: image-url('/images/speakker/dark/sk-dark.png'); }
+.mspeakker.dark .skLeftBlock { background-image: image-url('/images/speakker/dark/sk-leftblock.png'); }
+.mspeakker.dark .skRightBlock { background-image: image-url('/images/speakker/dark/sk-rightblock.png'); }
+.mspeakker.dark .skControls { background-image: image-url('/images/speakker/dark/sk-controlbg.png'); }
 
 .mspeakker .skBackwards { background-position:  0 0; height: 32px; width: 20px; }
 .mspeakker .skBackwards:hover { background-position:  0 -32px; }
