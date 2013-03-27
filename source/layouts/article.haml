@@ -6,10 +6,10 @@
     %title
       = data.page.title || 'RubyNoName'
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-    = stylesheet_link_tag 'normalize', 'all', 'article', 'speakker', 'mspeakker', 'jplayer/jplayer.blue.monday.css'
+    = stylesheet_link_tag 'normalize', 'all', 'article', 'mspeakker', 'jplayer/jplayer.blue.monday'
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="/javascripts/jplayer/jquery.jplayer.min.js"></script>
+    = javascript_include_tag 'jplayer/jquery.jplayer.min'
     = partial 'google_analytics'
   %body{class: page_classes}
     %header
@@ -24,7 +24,7 @@
           %div{itemprop: 'author', itemscope: '', itemtype: 'http://schema.org/Person'}
             %meta{itemprop: 'name', content: 'Ruby NoName Podcast'}
             %meta{itemprop: 'url', content: site_url}
-            %meta{itemprop: 'image', content: site_url + '/images/logo_64.png'}
+            %meta{itemprop: 'image', content: site_url + image_path('/images/logo_64.png')}
           %h1
             = link_to data.page.title, '/' + request.path, {itemprop: 'name headline'}
             %time{itemprop: 'datePublished', datetime: data.page.date.strftime('%Y-%m-%dT%H:%M')}= Russian::strftime(data.page.date, '%B %e, %Y')
