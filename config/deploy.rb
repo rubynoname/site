@@ -38,15 +38,19 @@ namespace :deploy do
       Dir.glob("**/*").each { |file|
 
         if File.file? file
+
           remote_file_meta = directory.files.head(file)
           local_digest = Digest::MD5.hexdigest(File.read(file))
 
           if remote_file_meta.nil? || remote_file_meta.etag != local_digest
             puts "Uploading #{file}"
+            metadata = {}
+            metadata = { 'Cache-Control' => 'public, max-age=31536000' } if file =~ /\.(png|jpg|js|css|gif)$/
             directory.files.create(
               :key => file,
               :body => File.open(file),
-              :public => true
+              :public => true,
+              :metadata => metadata
             )
           else
             puts "File #{file} is unchanged, skipping"
