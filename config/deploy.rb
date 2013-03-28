@@ -42,7 +42,7 @@ namespace :deploy do
 
         if File.file? file
 
-        all_files << file
+          all_files << file
 
           remote_file_meta = directory.files.head(file)
           local_digest = Digest::MD5.hexdigest(File.read(file))
