@@ -35,9 +35,14 @@ namespace :deploy do
 
       connection.put_bucket_website( aws_bucket, "index.html", :key => "404.html" )
 
+      all_files = []
+      remote_all_files = directory.files.all.map { |file| file.key }
+
       Dir.glob("**/*").each { |file|
 
         if File.file? file
+
+        all_files << file
 
           remote_file_meta = directory.files.head(file)
           local_digest = Digest::MD5.hexdigest(File.read(file))
@@ -57,6 +62,11 @@ namespace :deploy do
           end
         end
       }
+
+      (remote_all_files - all_files).each do |file|
+        puts "Removing #{file}"
+        directory.files.new(:key => file).destroy
+      end
 
       puts "Deployed to #{aws_bucket}!"
     end
