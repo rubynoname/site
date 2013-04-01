@@ -30,3 +30,5 @@ published: true
 
 * [Почему Ruby медленный?](https://speakerdeck.com/alex/why-python-ruby-and-javascript-are-slow)
 * [Немного про профайлинг, пускай и не Ruby](http://blog.golang.org/2011/06/profiling-go-programs.html)
+* [Статья про переход с Ruby на Go](http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html)
+* [Доклад Алексея Палажченко «Введение в Go»](https://github.com/AlekSi/LetsGo)
