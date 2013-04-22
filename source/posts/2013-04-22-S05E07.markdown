@@ -25,10 +25,18 @@ published: true
 
 ### Интервью с Андреем Руденко
 
-* [Сайт Андрея](http://prepor.ru/)
-* [Твиитер Андрея](https://twitter.com/prepor)
+* [Твиттер Андрея](https://twitter.com/prepor)
+* [Github нашего гостя](http://github.com/prepor)
+* [Compojure](https://github.com/weavejester/compojure)
 * Книга [Land of Lisp](http://landoflisp.com/)
-* [Официальный сайт языка Clojure](http://clojure.org/)
 * [Common Lisp в Wikipedia](http://en.wikipedia.org/wiki/Common_Lisp)
+* [Официальный сайт языка Clojure](http://clojure.org/)
+* [Ring](https://github.com/ring-clojure/ring)
 * Редактор [Emacs](http://www.gnu.org/software/emacs/)
 * Редактор [Light Table](http://www.lighttable.com/)
+* [Текущая работа Андрея](http://getmnemonic.com)
+* [Clojure Core](http://clojuredocs.org/quickref/Clojure Core)
+* [Статья с разной статистикой про Clojure](http://cemerick.com/2012/08/06/results-of-the-2012-state-of-clojure-survey/)
+* [Rich Hickey](http://mitpress.mit.edu/sicp/)
+* [Выступление Ричи Хики на QCon](http://www.infoq.com/presentations/Simple-Made-Easy-QCon-London-2012)
+* [Выступление Ричи Хики](http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey)
