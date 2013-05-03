@@ -37,6 +37,6 @@ published: true
 * [Текущая работа Андрея](http://getmnemonic.com)
 * [Clojure Core](http://clojuredocs.org/quickref/Clojure Core)
 * [Статья с разной статистикой про Clojure](http://cemerick.com/2012/08/06/results-of-the-2012-state-of-clojure-survey/)
-* [Rich Hickey](http://mitpress.mit.edu/sicp/)
+* [Книга SICP](http://mitpress.mit.edu/sicp/)
 * [Выступление Ричи Хики на QCon](http://www.infoq.com/presentations/Simple-Made-Easy-QCon-London-2012)
 * [Выступление Ричи Хики](http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey)
