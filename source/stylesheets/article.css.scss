@@ -1,10 +1,10 @@
 #main article {
   font-size: 16px;
-  line-height: 18px;
+  line-height: 20px;
   margin-bottom: 40px;
 
   h1 {
-    margin: 0 0 20px;
+    margin: 0;
 
     a {
       text-decoration: none;
@@ -12,7 +12,8 @@
       margin-bottom: 10px;
       display: inline-block;
       font-size: 26px;
-      line-height: 29px;
+      line-height: 40px;
+      margin-bottom: 0;
       border: none;
 
       &:hover {
@@ -23,7 +24,7 @@
 
     time {
       font-size: 12px;
-      line-height: 14px;
+      line-height: 20px;
       text-transform: uppercase;
       display: block;
       color: #888;
@@ -32,7 +33,18 @@
 
   h2 {
     font-size: 20px;
-    line-height: 22px;
+    line-height: 40px;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0;
+  }
+
+  p {
+    margin: 10px 0 10px;
   }
 
   ul {
@@ -40,6 +52,7 @@
     margin-left: 0;
     padding-left: 1em;
     text-indent: -1em;
+    margin: 0 0 20px;
 
     li:before {
       content: "\00BB \0020";
@@ -47,6 +60,7 @@
   }
 
   .links {
+    line-height: 19px;
     .go-more {
       float: left;
     }
