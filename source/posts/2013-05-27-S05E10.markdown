@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Ruby NoName Podcast S05E10
-date: 2013-05-27 12:42:00 +0400
+date: 2013-05-27 09:42:00 +0400
 comments: true
 published: true
 ---
