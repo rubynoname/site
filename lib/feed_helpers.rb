@@ -15,7 +15,7 @@ module FeedHelpers
 
   def episode_data
     {
-      :subtitle => "poscast.name = nil",
+      :subtitle => "Новости мира Ruby и не только",
       :image => "#{site_url}/images/logo.png",
       :keywords => "Ruby, NoName, RubyNoName, Rails"
     }
