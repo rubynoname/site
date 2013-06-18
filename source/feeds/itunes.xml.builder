@@ -8,6 +8,13 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", :version
     xml.link site_url
     xml.language "ru-RU"
     xml.description feed_data[:description]
+    xml.image do |img|
+      img.url feed_data[:image]
+      img.title feed_data[:title]
+      img.link site_url
+      img.width 1400
+      img.height 1400
+    end
     xml.itunes :author, feed_data[:author]
     xml.itunes :owner do 
       xml.itunes :name, feed_data[:owner][:author]
