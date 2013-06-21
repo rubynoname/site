@@ -37,6 +37,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", :version
         xml.item do
           xml.title  article.title
           xml.description  article.body
+          xml.itunes :image, {:href => feed_data[:image]}
           xml.itunes :subtitle, article.data.subtitle || episode_data[:subtitle]
           xml.itunes :author,   article.data.author   || feed_data[:author]
           xml.itunes :keywords, article.data.keywords || episode_data[:keywords]
