@@ -11,16 +11,19 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", :version
     xml.image do |img|
       img.url feed_data[:image]
       img.title feed_data[:title]
-      img.link site_url
-      img.width 1400
-      img.height 1400
+      img.link site_url + '/'
+      img.width 100
+      img.height 100
     end
     xml.itunes :author, feed_data[:author]
-    xml.itunes :owner do 
+    xml.itunes :owner do
       xml.itunes :name, feed_data[:owner][:author]
       xml.itunes :email, feed_data[:owner][:email]
     end
     xml.itunes :image, {:href => feed_data[:image]}
+    xml.itunes :link, {:rel => "image", :type => "video/png", :href => feed_data[:image]} do
+      feed_data[:title]
+    end
     xml.itunes :explicit, feed_data[:explicit]
 
     ### Categories ###

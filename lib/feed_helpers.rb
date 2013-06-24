@@ -8,7 +8,7 @@ module FeedHelpers
       :author => "Иван Самсонов и Иван Евтухович",
       :owner => {:author => "Иван Самсонов и Иван Евтухович", :email => "evtuhovich@gmail.com"},
       :categories => {"Technology" => ["Podcasting", "Tech News"]},
-      :image => "#{site_url}/images/logo.png",
+      :image => "#{site_url}/images/big_logo.png",
       :explicit => "no"
     }
   end
@@ -16,7 +16,7 @@ module FeedHelpers
   def episode_data
     {
       :subtitle => "Новости мира Ruby и не только",
-      :image => "#{site_url}/images/logo.png",
+      :image => "#{site_url}/images/big_logo.png",
       :keywords => "Ruby, NoName, RubyNoName, Rails"
     }
   end
