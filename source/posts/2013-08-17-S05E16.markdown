@@ -1,0 +1,43 @@
+---
+layout: article
+title: Ruby NoName Podcast S05E16
+date: 2013-08-17 11:33:00 +0400
+comments: true
+published: true
+subtitle: У нас в гостях Илья Зыкин — автор гема the_role
+---
+
+## Новости
+
+* [Why Nobody Should Use Rails For Anything](http://blog.bensigelman.org/post/57543889435/why-nobody-should-use-rails-for-anything-ever)
+* [Page Object Model DSL for Capybara](https://github.com/natritmeyer/site_prism)
+* [Verbal Expression](https://github.com/ryan-endacott/verbal_expressions)
+* [Расширение core классов - плохо](http://brainspec.com/blog/2013/08/09/make-love-not-ruby-core-extensions/)
+* [Github trending page](https://github.com/trending)
+* [Создание конкурентных индексов в Rails](http://robots.thoughtbot.com/post/56828751507/how-to-create-postgres-indexes-concurrently-in)
+* [Ruby 2.0 что нового?](https://blog.engineyard.com/2013/ruby-2-0-under-the-hood?eymktci=70170000000hHEC)
+* [Фотошоп на Руби](https://github.com/layervault/psd.rb)
+* [Тьюнинг Rails API](http://blog.dcxn.com/2013/08/11/rails-api-performance-tuning/)
+* [Мысли о непрерывной поставке ПО](http://mayerdan.com/programming/2013/08/04/thoughts-on-continuous-deployment/)
+
+## Обсуждение
+
+### Интервью с Ильей Зыкиным
+
+* [Гитхаб Ильи](https://github.com/the-teacher)
+* [Гем the\_sortable_tree](https://github.com/the-teacher/the_sortable_tree)
+* [Гем the_role](https://github.com/the-teacher/the_role)
+* [Гем the_comments](https://github.com/the-teacher/the_comments)
+
+Илья просил всех новичков не стесняться и стучать ему в скайп: ilya.killich
+
+### Остальное
+
+* [Обучающий курс Brainwashing по DevOps от «Экспресс 42» 21 и 22 сентября](http://brainwashing.pro/devops)
+* [Конференция RailsClub будет 28 сентября](http://railsclub.ru)
+* [Билеты на railsclub уже продаются, скидка 500 рублей — промокод «rubynoname»](http://railsclub.timepad.ru/event/76008/?utm_refcode=345644f64513d94bf60603bf536b20837815d4b7)
+* [Статья Олега Бартунова о hstore](http://obartunov.livejournal.com/172503.html)
+* [Доклад Ивана Евтуховича в Ульяновске про Hstore в AR](http://www.slideshare.net/evtuhovich/ruby-postgresql)
+* [Проект Vagrant](http://www.vagrantup.com/)
+* [Конференция Highload](http://www.highload.ru/)
+
