@@ -11,5 +11,5 @@ title: RubyNoName - Архив
     - articles.each do |article|
       %article
         %h1
-          = link_to article.title, article
+          = link_to get_title(article), article
           %time= Russian::strftime(article.date, '%B, %e')

@@ -79,6 +79,21 @@ helpers do
   def get_audio_size(path)
     File.size(path)
   end
+
+  def get_title(page)
+    title = page.title
+    if page.is_a? Middleman::Sitemap::Resource
+      subtitle = page.data["subtitle"]
+    else
+      subtitle = page.subtitle
+    end
+
+    if subtitle
+      title.split(" ").last + " — " + subtitle
+    else
+      title
+    end
+  end
 end
 
 set :css_dir, 'stylesheets'

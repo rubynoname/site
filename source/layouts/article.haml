@@ -4,7 +4,7 @@
     %meta{charset: 'utf-8'}
     %meta{content: 'IE=edge,chrome=1', 'http-equiv' => 'X-UA-Compatible'}
     %title
-      = data.page.title || 'RubyNoName'
+      = data.page.subtitle ? 'RubyNoName ' + get_title(data.page) : data.page.title
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,7 +26,7 @@
             %meta{itemprop: 'url', content: site_url}
             %meta{itemprop: 'image', content: site_url + image_path('/images/logo_64.png')}
           %h1
-            = link_to data.page.title, '/' + request.path, {itemprop: 'name headline'}
+            = link_to get_title(data.page), '/' + request.path, {itemprop: 'name headline'}
             %time{itemprop: 'datePublished', datetime: data.page.date.strftime('%Y-%m-%dT%H:%M')}= Russian::strftime(data.page.date, '%B %e, %Y')
           .body{itemprop: 'articleBody'}
             -if mp3file_exist?(data.page.title)
