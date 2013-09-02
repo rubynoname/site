@@ -1,0 +1,35 @@
+---
+layout: article
+title: Ruby NoName Podcast S05E17
+date: 2013-09-02 08:33:00 +0400
+comments: true
+published: true
+subtitle: Готовимся к RailsClub
+---
+
+## Новости
+
+* [Phusion Passenger 4.0.14](http://blog.phusion.nl/2013/08/19/phusion-passenger-4-0-14-released/)
+* [Гем для того, чтобы делать необычные отметки в коде](https://github.com/ymendel/nO_op)
+* [Своя игра в Ruby](http://www.confreaks.com/videos/2585-lonestarruby2013-ruby-2-jeopardy)
+* [Ускорение гема contracts.ruby](http://www.adit.io/posts/2013-03-04-How-I-Made-My-Ruby-Project-10x-Faster.html)
+* [PostGIS и Rails](http://ngauthier.com/2013/08/postgis-and-rails-a-simple-approach.html)
+* [Параллельный bundler](http://robots.thoughtbot.com/post/59584648154/parallel-gem-installing-using-bundler)
+* [Local path в бандлер](http://ryanbigg.com/2013/08/bundler-local-paths/)
+* [Ускоряем загрузку рельс](https://gist.github.com/ankane/5022636)
+* [Книга про платежи в Ruby](https://www.petekeen.net/mastering-modern-payments)
+* [Вышла книга «Confident Ruby»](http://devblog.avdi.org/2013/08/26/confident-ruby-is-finished/)
+* [Permit в Rails](http://blog.sensible.io/2013/08/17/strong-parameters-by-example.html)
+* [Тестирование Rails API](http://matthewlehner.net/rails-api-testing-guidelines/)
+* [Полнотекстовый поиск в PostgreSQL](http://robots.thoughtbot.com/post/58438017998/implementing-multi-table-full-text-search-with-postgres)
+* [Ускоряем прогон тестов](http://blog.codeship.io/2013/08/21/faster-test-suite-boot-times-with-ruby-on-rails.html)
+
+## Обсуждение
+
+* [Обучающий курс Brainwashing по DevOps от «Экспресс 42» 21 и 22 сентября](http://brainwashing.pro/devops)
+* [Конференция RailsClub будет 28 сентября](http://railsclub.ru)
+* [Эрик Ходл — мейнтейнер RubyGems и RDoc](https://github.com/drbrain)
+* [Фредерик Чанг — 35 коммитер в рельсы](http://contributors.rubyonrails.org/contributors/frederick-cheung/commits)
+* [Билеты на railsclub уже продаются, скидка 500 рублей — промокод «rubynoname»](http://railsclub.timepad.ru/event/76008/?utm_refcode=345644f64513d94bf60603bf536b20837815d4b7)
+* [Gem whenever — генератор crontab](https://github.com/javan/whenever)
+* [Gem thinking\_sphinx — генератор конфигурации для sphinx из rails](http://pat.github.io/thinking-sphinx/)
