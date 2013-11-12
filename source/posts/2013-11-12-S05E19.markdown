@@ -1,0 +1,37 @@
+---
+layout: article
+title: Ruby NoName Podcast S05E19
+date: 2013-11-12 08:33:00 +0400
+comments: true
+published: true
+subtitle: Смена владельцев
+---
+
+## Новости
+
+* [Костя про Ruby 2.1](http://rkh.im/ruby-2.1) и русский [перевод](http://habrahabr.ru/post/195844/)
+* [Как Групон перешел на Node.js](https://engineering.groupon.com/2013/misc/i-tier-dismantling-the-monoliths/)
+* [Что модно в Rails](http://www.petekeen.net/essential-tools-for-starting-a-rails-app-in-2013)
+* [Rubinius 2.0](http://rubini.us/2013/10/04/rubinius-2-0-released/) и [2.1](http://rubini.us/2013/10/18/the-parisian-release/) зарелизился
+* [Resque для Go](http://www.goworker.org/)
+* [Resque 1.25.0 зарелизился](http://blog.steveklabnik.com/posts/2013-09-16-resque-1-25-0-has-been-released)
+* [Изучение Ruby через айфон](http://iconoclastlabs.github.io/rubytrivia/)
+* [Ruby 2.1 preview1](https://www.ruby-forum.com/topic/4417257)
+* [Шедулер для Sidekiq](https://github.com/tobiassvn/sidetiq)
+* [Capistrano 3](https://medium.com/p/ba896a142ac)
+* [http gem](https://github.com/tarcieri/http)
+* [Свежий релиз Rails 4.0.1](http://weblog.rubyonrails.org/2013/11/1/Rails-4-0-1-has-been-released/)
+* [Ruby Hacking Guide на английском](http://ruby-hacking-guide.github.io/)
+* [Самовыпиливание wmeissner](https://github.com/ffi/ffi/commit/bef6f44505fd96eb16c044b1e1af9cbad2697bfe)
+
+## Обсуждение
+* [Подкаст rwpod](http://www.rwpod.com/)
+* [Подкаст ДевОпс Дефлопе](http://devopsdeflope.ru/)
+* [Рубиниус Икс](http://x.rubini.us/)
+* [Руби упал в индексе TIOBE](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)
+* [Вагрант](http://www.vagrantup.com/)
+* [Пакер](http://www.packer.io/)
+* [Виви](https://github.com/jedi4ever/veewee)
+* [Серф](http://www.serfdom.io/)
+* [К.Г. Юнг "Воспоминания, сновидения, размышления"](http://lib.ru/PSIHO/JUNG/memdreamrefs.txt)
+* [Фильм Ивана Вырыпаева "Танец Дели"](http://www.kinopoisk.ru/film/652859/)

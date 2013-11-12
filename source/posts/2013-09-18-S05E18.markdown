@@ -1,0 +1,41 @@
+---
+layout: article
+title: Ruby NoName Podcast S05E18
+date: 2013-09-18 08:33:00 +0400
+comments: true
+published: true
+subtitle: Свежий PostgreSQL 9.3
+---
+
+## Новости
+
+* [Чат бот Lita](http://jimmycuadra.github.io/lita/)
+* [Определение методов в Ruby 2.1.0](http://franck.verrot.fr/blog/2013/08/21/method-definitions-in-ruby-2-1-0-will-not-be-void-anymore/)
+* [Рефакторинг жирных моделей с медведями и балалайкой](http://habrahabr.ru/post/192504/)
+* [harvestman](https://github.com/mion/harvestman)
+* [Адаптер для master-slave Makara](http://tech.taskrabbit.com/blog/2013/01/02/makara/)
+* [NYNY](http://alisnic.github.io/nyny/)
+* [Ruby и роботы](http://artoo.io/)
+* [Ruby Motion 2.6](http://blog.rubymotion.com/post/59390449567/)
+* [Rails 4 diff cheatsheet](http://owningrails.com/rails-4-diff-cheatsheet)
+* [Стейт машины](https://mojolingo.com/blog/2013/state-machines/)
+* [Валидация ip адресов](http://spin.atomicobject.com/2013/08/28/ruby-ip-address-regex/)
+* [Топ 10 сайтов на Rails](http://blog.netguru.co/post/58995145341/top-10-sites-built-with-ruby-on-rails)
+
+## Обсуждение
+
+* [Конференция RubySPB в Питере 21 сентября](http://rubyspb.ru/)
+* [Обучающий курс Brainwashing по DevOps от «Экспресс 42» 21 и 22 сентября](http://brainwashing.pro/devops)
+* [Конференция RailsClub будет 28 сентября](http://railsclub.ru)
+* [Билеты на railsclub уже продаются, скидка 500 рублей — промокод «rubynoname»](http://railsclub.timepad.ru/event/76008/?utm_refcode=345644f64513d94bf60603bf536b20837815d4b7)
+* [Интервью с Эриком Ходлом](http://habrahabr.ru/company/railsclub/blog/193322/)
+* [Интервью с Джереми Эвансом](http://habrahabr.ru/company/railsclub/blog/192564/)
+* [Интервью с Эрни Миллером](http://habrahabr.ru/company/railsclub/blog/191888/)
+
+### Свежий сочный постгрес
+
+* [Новость о релизе PostgreSQL 9.3](http://www.postgresql.org/about/news/1481/)
+* [Release Notes](http://www.postgresql.org/docs/9.3/static/release-9-3.html)
+* [Чего нового в 9.3 в wiki PostgreSQL](https://wiki.postgresql.org/wiki/What%27s_new_in_PostgreSQL_9.3)
+* [Как поставить 9.3 на OSX](https://github.com/petere/homebrew-postgresql)
+
