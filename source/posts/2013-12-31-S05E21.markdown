@@ -19,6 +19,7 @@ subtitle: Новые ведущие, Толя Макаревич и конфер
 * [Как поднять свой маленький Heroku](http://blog.rajivm.com/your-own-mini-heroku-for-5-dollars-per-month.html)
 * [MRI 1.8.7 и 1.9.2 не будут поддерживаться с июня 2014](https://www.ruby-lang.org/en/news/2013/12/17/maintenance-of-1-8-7-and-1-9-2/)
 * [deep_thought, новый инструмент для CI и деплоя](https://github.com/redhotvengeance/deep_thought)
+* Спонсор конкурса &mdash; [курсы Brainwashing](http://brainwashing.pro/rails)
 
 ## Обсуждение
 
