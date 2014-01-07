@@ -11,6 +11,11 @@
     = stylesheet_link_tag 'normalize', 'all', 'article', 'mspeakker', 'jplayer/jplayer.blue.monday'
     = javascript_include_tag 'jplayer/jquery.jplayer.min'
     = partial 'google_analytics'
+    %meta{property: "og:title", content: "Ruby NoName Podcast"}
+    %meta{property: "og:url", content: "http://rubynoname.ru#{current_page.url}" }
+    %meta{property: "og:audio", content: "http://rubynoname.ru/mp3/#{get_mp3_filename(data.page.title)}" }
+    %meta{property: "og:audio:type", content: "audio/mp3"}
+
   %body{class: page_classes}
     %header
       %span.title Русскоязычный подкаст о языке Ruby
