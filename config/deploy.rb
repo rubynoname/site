@@ -15,8 +15,8 @@ namespace :deploy do
             },
             {
               :provider => 'AWS',
-              :aws_access_key_id => ENV['AWS_ACCESS_KEY'],
-              :aws_secret_access_key => ENV['AWS_SECRET_KEY']
+              :aws_access_key_id => ENV['RNP_AWS_ACCESS_KEY'],
+              :aws_secret_access_key => ENV['RNP_AWS_SECRET_KEY']
             }
     ]
 
