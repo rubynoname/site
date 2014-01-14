@@ -10,8 +10,8 @@ namespace :deploy do
             {
               :provider => 'AWS',
               :host => "storage.io",
-              :aws_access_key_id => ENV['ES3_ACCESS_KEY'],
-              :aws_secret_access_key => ENV['ES3_SECRET_KEY']
+              :aws_access_key_id => ENV['RNP_ES3_ACCESS_KEY'],
+              :aws_secret_access_key => ENV['RNP_ES3_SECRET_KEY']
             },
             {
               :provider => 'AWS',
