@@ -38,7 +38,7 @@
               .mp3
                 %a(href="/mp3/#{get_mp3_filename(data.page.title)}") скачать mp3
               .player
-                = partial 'player', :locals => { :title => data.page.title, :file => "/mp3/#{get_mp3_filename(data.page.title)}"}
+                = partial 'player', :locals => { :title => data.page.title, :file => "/mp3/#{get_mp3_filename(data.page.title)}", :episode => data.page.title }
 
             = yield
         #disqus_thread
