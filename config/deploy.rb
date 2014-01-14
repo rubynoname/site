@@ -13,11 +13,11 @@ namespace :deploy do
               :aws_access_key_id => ENV['RNP_ES3_ACCESS_KEY'],
               :aws_secret_access_key => ENV['RNP_ES3_SECRET_KEY']
             },
-            {
-              :provider => 'AWS',
-              :aws_access_key_id => ENV['RNP_AWS_ACCESS_KEY'],
-              :aws_secret_access_key => ENV['RNP_AWS_SECRET_KEY']
-            }
+            # {
+            #   :provider => 'AWS',
+            #   :aws_access_key_id => ENV['RNP_AWS_ACCESS_KEY'],
+            #   :aws_secret_access_key => ENV['RNP_AWS_SECRET_KEY']
+            # }
     ]
 
     raise "Eerro while building site" if not system "bundle exec middleman build"
