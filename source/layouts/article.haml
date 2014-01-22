@@ -11,11 +11,12 @@
     = stylesheet_link_tag 'normalize', 'all', 'article', 'mspeakker', 'jplayer/jplayer.blue.monday'
     = javascript_include_tag 'jplayer/jquery.jplayer.min'
     = partial 'google_analytics'
-    %meta{property: "og:title", content: "Ruby NoName Podcast"}
+    %meta{property: "og:title", content: data.page.title}
     %meta{property: "og:url", content: "http://rubynoname.ru#{current_page.url}" }
     %meta{property: "og:audio", content: "http://rubynoname.ru/mp3/#{get_mp3_filename(data.page.title)}" }
     %meta{property: "og:audio:type", content: "audio/mp3"}
     %meta{property: "music:musician", content: "Andrey Deryabin, Kir Shatrov" }
+    %meta{property: "music:artist", content: "Andrey Deryabin, Kir Shatrov" }
     %meta{property: "music:album", content: "Ruby Noname Podcast" }
 
   %body{class: page_classes}
@@ -28,10 +29,10 @@
 
       .wrap
         %article{itemscope: '', itemtype: 'http://schema.org/Article'}
-          %div{itemprop: 'author', itemscope: '', itemtype: 'http://schema.org/Person'}
-            %meta{itemprop: 'name', content: 'Ruby NoName Podcast'}
-            %meta{itemprop: 'url', content: site_url}
-            %meta{itemprop: 'image', content: site_url + image_path('/images/logo_64.png')}
+          %div{property: 'author', itemprop: 'author', itemscope: '', itemtype: 'http://schema.org/Person'}
+            %meta{property: 'name', itemprop: 'name', content: data.page.title}
+            %meta{property: 'url', itemprop: 'url', content: site_url}
+            %meta{property: 'image', itemprop: 'image', content: site_url + image_path('/images/logo_64.png')}
           %h1
             = link_to get_title(data.page), '/' + request.path, {itemprop: 'name headline'}
             %time{itemprop: 'datePublished', datetime: data.page.date.strftime('%Y-%m-%dT%H:%M')}= Russian::strftime(data.page.date, '%B %e, %Y')
