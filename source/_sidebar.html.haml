@@ -14,7 +14,9 @@
     - blog.articles[0...5].each do |article|
       %li
         = link_to article.title, article.url
-
+.block.honeybadger
+  %a{href: "http://bit.ly/rnp_honeybadger", target: "_blank"}
+    = image_tag(image_path("/images/banners/honeybadger_ad.jpg"), alt: "Honeybadger")
 .block.twitter-widget
   %a{class: "twitter-timeline", href: "https://twitter.com/rubynoname", 'data-widget-id' => "273075322386268161"} Tweets by @rubynoname
 
