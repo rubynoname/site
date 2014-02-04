@@ -22,7 +22,7 @@ subtitle: Пост-рок с Михаилом Клишиным
 * [Как в руби устроено умножение](http://bit.ly/LgL90y)
 * [Применение принципов функционального программирования в руби-коде](http://bit.ly/1a5DQ7L)
 * [Архиватор миграций](http://bit.ly/1jQSenG)
-* [Что ждать от CoffeScript 1.7](http://bit.ly/1iSmyhj)
+* [Что ждать от CoffeeScript 1.7](http://bit.ly/1iSmyhj)
 * [Фреймворк локализации от Mozilla](http://bit.ly/1fsf2GG)
 * [Дебаг единорога в продакшине](http://bit.ly/1bchobf)
 * [Клевый клиент для Github Issues](http://bit.ly/1jQStPz) и еще [один](http://bit.ly/LgLgJB)
@@ -36,3 +36,4 @@ subtitle: Пост-рок с Михаилом Клишиным
 * [ClojureWerkz](http://bit.ly/1ekDee3)
 * [Java Concurrency in Practice](http://amzn.to/1aLUYzZ)
 * [Книги по распределенным системам](http://bit.ly/LvhqBD)
+* [Про pivotal-rabbitmq](http://www.gopivotal.com/products/pivotal-rabbitmq)
