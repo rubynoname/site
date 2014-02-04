@@ -1,5 +1,6 @@
 require 'lib/feed_helpers'
 require 'mp3info'
+require 'json'
 
 activate :blog do |blog|
   blog.prefix = 'posts'
@@ -55,6 +56,9 @@ page "/archive", :proxy => "/archive.html"
 
 helpers FeedHelpers
 # Methods defined in the helpers block are available in templates
+
+EPISODES_META = JSON.parse(File.read('episodes.json'))
+
 helpers do
   def site_url(protocol = 'http')
     if development?
@@ -64,20 +68,16 @@ helpers do
     end
   end
 
-  def mp3file_exist?(article_title)
-    File.exist?("./source/mp3/#{get_mp3_filename(article_title)}")
-  end
-
   def get_mp3_filename(article_title)
     article_title.split(" ").last.downcase + ".mp3"
   end
 
   def get_audio_duration(path)
-    Mp3Info.open(path, :parse_tags => false) { |file| Time.at(file.length).gmtime.strftime('%R:%S') }
+    EPISODES_META[path]['duration']
   end
 
   def get_audio_size(path)
-    File.size(path)
+    EPISODES_META[path]['size']
   end
 
   def get_title(page)
