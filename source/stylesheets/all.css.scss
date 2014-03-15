@@ -226,6 +226,14 @@ nav {
     .twitter-widget {
       margin: 30px 30px 0 10px;
     }
+
+    .honeybadger {
+      margin: 30px 30px 0 10px;
+      text-align: center;
+      > a {
+        text-decoration: none;
+      }
+    }
   }
 
   .wrap {
