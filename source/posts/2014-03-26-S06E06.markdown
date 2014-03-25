@@ -4,22 +4,22 @@ title: Ruby NoName Podcast S06E06
 date: 2014-03-26
 comments: true
 published: true
-subtitle: Интервью с Павлом Правосудом из Hashrocket
+subtitle: Про Ленту.Ру
 ---
 
 ## Спонсор выпуска
 * [Hoheybadger - сервис для мониторинга исключений, аптайма и производительности руби проектов.](http://bit.ly/rnp_honeybadger)
 
-# про Лентач
+## про Ленту
 
 * [Структура редакции](http://cl.ly/image/1P2H2U361M0V)
 * [Посещаемость в последние месяцы](https://scontent-b-sea.xx.fbcdn.net/hphotos-prn1/t1.0-9/1960044_10203590893271906_1527518333_n.jpg)
 * [proxy_cache_lock в nginx](http://nginx.org/ru/docs/http/ngx_http_proxy_module.html#proxy_cache_lock)
 
-## Заур Абасмирзоев, технический руководитель Ленты.ру
+### Заур Абасмирзоев, технический руководитель Ленты.ру
 [Профиль на Гитхабе](https://github.com/kavkaz)
 
-## Костя Савельев, ведущий разработчик Ленты
+### Костя Савельев, ведущий разработчик Ленты
 [Профиль на Гитхабе](https://github.com/inferno)
 
 ![](http://cs6070.vk.me/v6070333/9dd0/EYpygWHaeXs.jpg)
