@@ -27,7 +27,7 @@ subtitle: RNP + RWpod
 * [Pundit](http://bit.ly/1jJbEHT)
 * [Конвертируем API ответы в обьекты](http://bit.ly/1muTyxH)
 * [Приемы и гемы для построения API](http://bit.ly/1fjkCZc)
-* [Interactors (ex service objects)](http://bit.ly/1fjktVvs)
+* [Interactors (ex service objects)](http://bit.ly/1fjktVv)
 * [Обертка для Capybara для заполнения форм](http://bit.ly/1lmbCKb)
 * [Немного хороших практик написания кода](http://bit.ly/1iArXHw)
 * [ActiveValidators - много кастомных валидаций](http://bit.ly/1gC4aIX)
