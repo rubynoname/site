@@ -1,0 +1,37 @@
+---
+layout: article
+title: Ruby NoName Podcast S06E08
+date: 2014-04-07
+comments: true
+published: true
+subtitle: Апрельские новости
+---
+
+
+## Новости
+* [Rails 4.1 RC2](http://bit.ly/QSqinO)
+* [О недостатках реализации GC в MRI 2.1](http://bit.ly/1kzLyrj)
+* [О главном нововведении PostgreSQL 9.4 — JSONB](http://bit.ly/1imHIQQ)
+* [Другие обновления в Postgres 9.4](http://bit.ly/1h32reZ)
+* [Sidekiq 3](http://bit.ly/1q7Zc6t)
+* [Значения по умолчанию в ActiveRecord](http://bit.ly/1snSihc)
+* [Гем default_value_for](http://bit.ly/1e1O8b8)
+* [О работе с Pathname](http://bit.ly/1lIyfc1)
+* [Lotus уже можно пользовать](http://bit.ly/QSqIe4)
+* [CLI опции в руби](http://bit.ly/1mSF4Ic)
+* [pgtune онлайн без регистрации и смс](http://bit.ly/1eiHFmE)
+* [Elastic Search Defenitive Guide](http://bit.ly/1h32EPc)
+* [Как правильно тюнить 2.1](http://bit.ly/1hPHtQy)
+* [Тест на знание прозводительности в руби](http://bit.ly/PJZo0o)
+* [mind-map компонентов Rails](http://ericbrooke.wordpress.com/2014/03/30/visual-overview-of-ruby-on-rails/)
+* [Про микрофреймворки (не Синатрой единой)](http://codecondo.com/12-small-ruby-frameworks/)
+
+## Конференции
+* [Стачка 2014 в Ульяновске](http://bit.ly/1e2uRpU)
+* [RubyC в Киеве 31 мая-1 июня](http://bit.ly/1oDEDmV)
+
+А также выражаем благодарность [Стасу Спиридонову](https://twitter.com/stas_spiridonov) за помощь с мастерингом этого выпуска.
+
+P.S. А еще у нас появился свой плакат
+
+![](https://pbs.twimg.com/media/BkiihF8CAAA5FOe.png)
