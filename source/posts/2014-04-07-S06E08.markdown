@@ -23,6 +23,7 @@ subtitle: Апрельские новости
 * [Elastic Search Defenitive Guide](http://bit.ly/1h32EPc)
 * [Как правильно тюнить 2.1](http://bit.ly/1hPHtQy)
 * [Тест на знание прозводительности в руби](http://bit.ly/PJZo0o)
+* [Заметка о скорости let, subject в rspec ](http://robots.thoughtbot.com/lets-not)
 * [mind-map компонентов Rails](http://ericbrooke.wordpress.com/2014/03/30/visual-overview-of-ruby-on-rails/)
 * [Про микрофреймворки (не Синатрой единой)](http://codecondo.com/12-small-ruby-frameworks/)
 
