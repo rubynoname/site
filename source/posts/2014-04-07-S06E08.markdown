@@ -32,7 +32,3 @@ subtitle: Апрельские новости
 * [RubyC в Киеве 31 мая-1 июня](http://bit.ly/1oDEDmV)
 
 А также выражаем благодарность [Стасу Спиридонову](https://twitter.com/stas_spiridonov) за помощь с мастерингом этого выпуска.
-
-P.S. А еще у нас появился свой плакат
-
-![](https://pbs.twimg.com/media/BkiihF8CAAA5FOe.png)
