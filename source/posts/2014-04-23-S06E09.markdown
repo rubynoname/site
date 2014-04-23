@@ -1,0 +1,53 @@
+---
+layout: article
+title: Ruby NoName Podcast S06E09
+date: 2014-04-23
+comments: true
+published: true
+subtitle: Сообщества, SPRUG и Николай Рыжиков
+---
+
+## Наш гость - Николай Рыжиков
+
+Николай в соцсетях:
+
+* [Google+](http://bit.ly/1njDS0K)
+* [Github](http://bit.ly/1lskDxO)
+* [Twitter](http://bit.ly/1gMQyG0)
+* [Facebook](http://on.fb.me/1muzZG2)
+
+Сообщества:
+
+* [SPRUG](http://bit.ly/1muB54E)
+* [Clojure Russia](http://bit.ly/1eTSRfg)
+* [Piter United](http://bit.ly/1lsmfYE)
+* [SPB Frontend](http://bit.ly/1jpJBeI)
+
+
+Книги:
+
+* [SICP](http://bit.ly/1i28GQz)
+* [SICP in clojure](http://bit.ly/QqClbt)
+* [SICP видекурс на русском](http://bit.ly/1iCvmqe/)
+* [CTM](http://bit.ly/1iCvmXn)
+* [Список книг от Равиля](http://bit.ly/1trtmGi)
+
+Видео:
+
+* [Rich Hickye](http://bit.ly/QqCv2B)
+
+Health Samurai:
+* [Сайт](http://bit.ly/1lum0Rd)
+* [Профиль на Github](http://bit.ly/PmlXYz)
+
+Open Source:
+
+* [foodtaster](http://bit.ly/1jpJVKv) + бонус в виде [видоса](http://bit.ly/QqCYSs)
+* [formstamp](http://bit.ly/1h3Yvdx)
+* [fhirbase](http://bit.ly/1jtGNOU)
+
+Материалы с конференций:
+* [Слайды](http://bit.ly/1njEzad)
+* [Видео доклада "Pair Programming" c AgileDays-2014](http://bit.ly/1ffgGZN)
+
+А также выражаем благодарность [Стасу Спиридонову](https://twitter.com/stas_spiridonov) за помощь с мастерингом этого выпуска.
