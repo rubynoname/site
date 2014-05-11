@@ -1,0 +1,30 @@
+---
+layout: article
+title: Ruby NoName Podcast S06E10
+date: 2014-05-11
+comments: true
+published: true
+subtitle: Майские новости
+---
+
+
+* [Релиз Rails 3.2.18, 4.0.5, 4.1.1](http://weblog.rubyonrails.org/2014/5/6/Rails_3_2_18_4_0_5_and_4_1_1_have_been_released/)
+* [Победители премии Ruby Hero](http://rubyheroes.com)
+* [DHH: TDD is dead](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
+* [Ruby Perfomance 2014](http://www.mikeperham.com/2014/04/22/ruby-performance-2014/)
+* [Musterman, парсер строк из внутренностей Sinatra](https://github.com/rkh/mustermann)
+* [Про array/hstore типы в Postgres](http://tastehoneyco.com/blog/postgresql-array-and-hstore-column-reference/)
+* [Git conventions](https://medium.com/code-adventures/a940ee20862d)
+* [Mina не умерла!](https://github.com/mina-deploy/mina/issues/181)
+* [Capistrano team notifications от Evrone](https://github.com/evrone/capistrano-team_notifications)
+* [Minicron](https://github.com/jamesrwhite/minicron)
+* [Gourmet service objects](http://brewhouse.io/blog/2014/04/30/gourmet-service-objects.html)
+* [Про Policy Objects](http://eng.joingrouper.com/blog/2014/03/20/rails-the-missing-parts-policies/)
+* [Hound, автоматический ревью кодстайлов](http://robots.thoughtbot.com/introducing-hound)
+* [Documentation driven development](http://collectiveidea.com/blog/archives/2014/04/21/on-documentation-driven-development/)
+* [Lurker, проект Володи Бокова про генератор документации](https://github.com/razum2um/lurker)
+* [Открытие исходников Atom](https://github.com/blog/1831-atom-free-and-open-source-for-everyone)
+* [Фишки ST2 для рельсовиков](http://jennifermann.ghost.io/a-quick-guide-to-sublime-text/)
+* [Конференция RubyC в Киеве 31 мая — 1 июня](http://rubyc.eu)
+
+А также выражаем благодарность [Стасу Спиридонову](https://twitter.com/stas_spiridonov) за помощь с мастерингом этого выпуска.
