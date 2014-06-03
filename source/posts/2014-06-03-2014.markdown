@@ -9,8 +9,8 @@ subtitle: Интервью с Алексеем Найденом
 
 ## Наш гость - Алексей Найден
 
-[Профиль на Github](https://github.com/anayden)
-[Профиль на Facebook](https://www.facebook.com/alexey.nayden)
+* [Профиль на Github](https://github.com/anayden)
+* [Профиль на Facebook](https://www.facebook.com/alexey.nayden)
 
 Проекты Алексея с Evil Martians:
 
