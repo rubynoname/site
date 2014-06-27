@@ -1,0 +1,27 @@
+---
+layout: article
+title: Ruby NoName Podcast S06E12
+date: 2014-06-27
+comments: true
+published: true
+subtitle: Интервью с Михаилом Кузьминым из Undev
+---
+
+## Наш гость — Михаил Кузьмин
+
+### Errbit-postgresql
+
+* https://github.com/undev/errbit
+* https://github.com/errbit/errbit/issues/614
+* https://github.com/errbit/errbit/pull/623
+* [erl_proxy](https://github.com/av-ast/erl_proxy)
+
+### Percolator & elasticsearch
+
+* http://percolator.io/
+* https://github.com/percolator-io/percolator
+
+### git для хранения данных
+
+* https://github.com/darkleaf/github_pages_rails
+* https://prismic.io/
