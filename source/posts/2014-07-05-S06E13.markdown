@@ -1,0 +1,31 @@
+---
+layout: article
+title: Ruby NoName Podcast S06E13
+date: 2014-07-05
+comments: true
+published: true
+subtitle: Летние новости
+---
+
+## Новости
+
+* [https://www.imperialviolet.org/2014/06/05/earlyccs.html](https://www.imperialviolet.org/2014/06/05/earlyccs.html)
+* [http://ccsinjection.lepidum.co.jp/blog/2014-06-05/CCS-Injection-en/index.html](http://ccsinjection.lepidum.co.jp/blog/2014-06-05/CCS-Injection-en/index.html)
+* [Swift vs RubyMotion и предыстория](http://blog.motioninmotion.tv/swift-still-won-t-replace-rubymotion)
+* [Пост От создателя Rust](http://graydon2.dreamwidth.org/5785.html)
+* [Object Oriented Swift](http://blog.codeclimate.com/blog/2014/06/19/oo-swift/)
+* [Git 2.0](https://git.kernel.org/cgit/git/git.git/tree/Documentation/RelNotes/2.0.0.txt)
+* [RSPEC 3](http://myronmars.to/n/dev-blog/2014/06/rspec-2-99-0-and-3-0-0-have-been-released)
+* [transpec](https://github.com/yujinakayama/transpec)
+* [Rails 4.1.2rc2](http://weblog.rubyonrails.org/2014/6/23/Rails-4-1-2-rc3-and-4-0-6-rc3-has-been-released/)
+* [Avoid Rails When Generating JSON responses with PostgreSQL](http://reefpoints.dockyard.com/2014/05/27/avoid-rails-when-generating-json-responses-with-postgresql.html)
+* [Protocol Buffets](http://blog.codeclimate.com/blog/2014/06/05/choose-protocol-buffers/)
+* [Несколько советов для простого улучшения работы с I18n](http://engineering.moneybird.com/posts/2014/06/10/3-improvements-for-a-rails-i18n-workflow/)
+* [Кол-во npm-пакетов превысило кол-во гемов](https://twitter.com/thought_sync/status/474832461239967744)
+* [Выпустили Lotus целиком](https://github.com/lotus/lotus)
+* [Новый Sidekiq Pro](http://www.mikeperham.com/2014/06/02/whats-new-in-sidekiq-pro/)
+* [sidekiq_limit_fetch](https://github.com/brainopia/sidekiq-limit_fetch)
+* [OSXC для конфигурации Mac](https://osxc.github.io/)
+* [Про merge Rails и Merb](http://gilesbowkett.blogspot.ru/2014/06/the-railsmerb-merge-in-retrospect.html )
+* [Монады на руби](https://github.com/rap1ds/ruby-possibly)
+* [pow + foreman](http://invoker.codemancers.com )
