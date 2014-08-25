@@ -29,3 +29,5 @@ subtitle: Летние новости
 * [Про merge Rails и Merb](http://gilesbowkett.blogspot.ru/2014/06/the-railsmerb-merge-in-retrospect.html )
 * [Монады на руби](https://github.com/rap1ds/ruby-possibly)
 * [pow + foreman](http://invoker.codemancers.com )
+
+А также выражаем благодарность [Стасу Спиридонову](https://twitter.com/stas_spiridonov) за помощь с мастерингом этого выпуска.
