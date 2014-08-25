@@ -1,0 +1,40 @@
+---
+layout: article
+title: Ruby NoName Podcast S06E14
+date: 2014-08-25
+comments: true
+published: true
+subtitle: Мы вернулись из отпуска!
+---
+
+## Конференции
+
+* [rubyconf 17-19 ноября, Сан Диего](http://rubyconf.org/)
+* [rubyconf Argentina 24 октября, Буэнос Айрес](http://rubyconfargentina.org/index_es.html)
+* [FrozenRails 11-12 сентября](http://2014.frozenrails.eu)
+
+## Новости
+
+* [27 сентября пройдет RailsClub 2014](http://bit.ly/1sTUb57)
+* [Рельсе 10 лет (24 июля 2004 — первый публичный релиз 0.5)](http://www.recursion.org/looking-backward/)
+* [Rails 4.0.8, 4.1.4. Security с PostgreSQL Range](http://weblog.rubyonrails.org/2014/7/2/Rails_4_0_8_and_4_1_4_have_been_released/)
+* [Matz Reddit AMA (видео)](http://www.reddit.com/r/ruby/comments/2c722r/ama_with_matz_at_lumosity/)
+* [Rails Rumble 2014: 18-19 октября](http://blog.railsrumble.com/2014/07/23/heroku-create-2014-rails-rumble)
+* [1.8.7, 1.9.2 EOL 31 июля](https://www.ruby-lang.org/en/news/2014/07/01/eol-for-1-8-7-and-1-9-2/)
+* [Matz: My vague plan for Ruby GIL is 1) add more abstract concurrency e.g. actors 2) add warning when using threads directly 3) then remove GIL](https://twitter.com/yukihiro_matz/status/495219763883163648)
+* [Rails 4.2 new sanitizer](http://blog.plataformatec.com.br/2014/07/the-new-html-sanitizer-in-rails-4-2/)
+* [Rails и front-end, David Bryant](http://www.naildrivin5.com/blog/2014/08/07/rails-degenerate-front-end-support.html)
+* [PgHero](https://github.com/ankane/pghero)
+* [Mediator Pattern](http://brandur.org/mediator)
+* [Timeouts in Ruby (MRI)](http://redgetan.cc/understanding-timeouts-in-cruby/)
+* [Pstore](http://ruby.inuse.ru/news/pstore)
+* [Jekyll 2.2](https://github.com/blog/1867-github-pages-now-runs-jekyll-2-2-0)
+* [FactoryGirl Tips](http://arjanvandergaag.nl/blog/factory_girl_tips.html)
+* [factory_girl-seeds](https://github.com/evrone/factory_girl-seeds)
+* [Advanced aRel: When ActiveRecord Just Isn't Enough](https://www.youtube.com/watch?v=ShPAxNcLm3o)
+* [Basecamp: Search с DHH](https://www.codeschool.com/screencasts/basecamp-search)
+* [Memoization patterns](http://www.justinweiss.com/blog/2014/07/28/4-simple-memoization-patterns-in-ruby-and-one-gem/)
+* [Create mocks from active record models and run them without loading rails or running a database](https://github.com/zeisler/active_mocker)
+* [Rmagick всё](http://linduxed.com/blog/2014/07/25/the-state-of-rmagick-development/)
+* [Roda by Jeremy Evans](http://roda.jeremyevans.net/why.html)
+* [.dup vs .clone](http://aaronlasseigne.com/2014/07/16/know-ruby-clone-and-dup/)
