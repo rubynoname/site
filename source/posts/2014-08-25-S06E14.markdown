@@ -9,6 +9,8 @@ subtitle: Мы вернулись из отпуска!
 
 ## Конференции
 
+*Промокод для скидки на RailsClub: `rubynoname`*
+
 * [**27 сентября пройдет RailsClub 2014**](http://bit.ly/1sTUb57)
 * [rubyconf 17-19 ноября, Сан Диего](http://rubyconf.org/)
 * [rubyconf Argentina 24 октября, Буэнос Айрес](http://rubyconfargentina.org/index_es.html)
@@ -38,3 +40,5 @@ subtitle: Мы вернулись из отпуска!
 * [Rmagick всё](http://linduxed.com/blog/2014/07/25/the-state-of-rmagick-development/)
 * [Roda by Jeremy Evans](http://roda.jeremyevans.net/why.html)
 * [.dup vs .clone](http://aaronlasseigne.com/2014/07/16/know-ruby-clone-and-dup/)
+
+А также выражаем благодарность [Стасу Спиридонову](https://twitter.com/stas_spiridonov) за помощь с мастерингом этого выпуска.
