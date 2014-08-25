@@ -9,13 +9,13 @@ subtitle: Мы вернулись из отпуска!
 
 ## Конференции
 
+* [**27 сентября пройдет RailsClub 2014**](http://bit.ly/1sTUb57)
 * [rubyconf 17-19 ноября, Сан Диего](http://rubyconf.org/)
 * [rubyconf Argentina 24 октября, Буэнос Айрес](http://rubyconfargentina.org/index_es.html)
 * [FrozenRails 11-12 сентября](http://2014.frozenrails.eu)
 
 ## Новости
 
-* [27 сентября пройдет RailsClub 2014](http://bit.ly/1sTUb57)
 * [Рельсе 10 лет (24 июля 2004 — первый публичный релиз 0.5)](http://www.recursion.org/looking-backward/)
 * [Rails 4.0.8, 4.1.4. Security с PostgreSQL Range](http://weblog.rubyonrails.org/2014/7/2/Rails_4_0_8_and_4_1_4_have_been_released/)
 * [Matz Reddit AMA (видео)](http://www.reddit.com/r/ruby/comments/2c722r/ama_with_matz_at_lumosity/)
