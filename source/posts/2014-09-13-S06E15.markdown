@@ -1,0 +1,14 @@
+---
+layout: article
+title: Ruby NoName Podcast S06E14
+date: 2014-09-13
+comments: true
+published: true
+subtitle: Интервью с Павлом Аргентовым
+---
+
+## Наш гость — Павел Аргентов
+
+* [Профиль на Гитхабе](https://github.com/argent-smith)
+* [Профиль в Твиттере](https://twitter.com/argent_smith)
+* [Павел очень рекомендует ЖЖ Анатолия Левенчука](http://ailev.livejournal.com/)
