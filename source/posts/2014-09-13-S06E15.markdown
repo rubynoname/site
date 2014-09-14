@@ -9,6 +9,8 @@ subtitle: Интервью с Павлом Аргентовым
 
 ## Наш гость — Павел Аргентов
 
+*Промокод для скидки на RailsClub: rubynoname*
+
 * [Профиль на Гитхабе](https://github.com/argent-smith)
 * [Профиль в Твиттере](https://twitter.com/argent_smith)
 * [Павел очень рекомендует ЖЖ Анатолия Левенчука](http://ailev.livejournal.com/)
