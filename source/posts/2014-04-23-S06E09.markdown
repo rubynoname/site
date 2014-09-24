@@ -34,7 +34,7 @@ subtitle: Сообщества, SPRUG и Николай Рыжиков
 
 Видео:
 
-* [Rich Hickye](http://bit.ly/QqCv2B)
+* [Rich Hickey](http://bit.ly/QqCv2B)
 
 Health Samurai:
 * [Сайт](http://bit.ly/1lum0Rd)
