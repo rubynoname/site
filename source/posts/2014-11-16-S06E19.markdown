@@ -19,6 +19,7 @@ subtitle: Ноябрьские новости
 * [MRI 2.1.4](https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-1-4-released/)
 
 Новости
+
 * [RailsRumble winners](http://railsrumble.com/entries/winners)
 * [Coderequest.io](http://coderequest.io/)
 * [Обзор Raptor](http://www.akitaonrails.com/2014/10/19/the-new-kid-on-the-block-for-ruby-servers-raptor)
