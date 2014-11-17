@@ -1,0 +1,34 @@
+---
+layout: article
+title: Ruby NoName Podcast S06E19
+date: 2014-11-16
+comments: true
+published: true
+subtitle: Ноябрьские новости
+---
+
+**Спонсор выпуска — [Vexor CI](http://bit.ly/1stt7X3) – облачный continuous integration сервис для ruby разработчиков с поминутной оплатой.**
+
+**С учетом поминутной оплаты, Vexor очень выгоден для маленьких проектов и эффективен для больших. Каждому новому пользователю предоставляется $10 на счет для экспериментов.**
+
+**[Попробовать Vexor CI](http://bit.ly/1stt7X3)**
+
+Релизы
+
+* [Новый секьюрити-релиз Rails](http://weblog.rubyonrails.org/2014/10/30/Rails_3_2_20_4_0_11_4_1_7_and_4_2_0_beta3_have_been_released/)
+* [MRI 2.1.4](https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-1-4-released/)
+
+Новости
+* [RailsRumble winners](http://railsrumble.com/entries/winners)
+* [Coderequest.io](http://coderequest.io/)
+* [Обзор Raptor](http://www.akitaonrails.com/2014/10/19/the-new-kid-on-the-block-for-ruby-servers-raptor)
+* [Пост про новую админку Shopify](http://www.shopify.com/technology/15646068-rebuilding-the-shopify-admin-improving-developer-productivity-by-deleting-28-000-lines-of-javascript)
+* [Ernie Miller: alias/alias_method](http://erniemiller.org/2014/10/23/in-defense-of-alias/)
+* [The Metal, rack 2.0 от Аарона](https://github.com/tenderlove/the_metal)
+* [volt.rb](https://github.com/voltrb/volt)
+* [Inspeqtor](http://www.mikeperham.com/2014/10/23/inspeqtor-0-6-0-init-d-cron-and-statsd/) [и видео про него](https://www.youtube.com/watch?v=Ad4L2z497wY)
+
+
+******
+
+Мы выражаем огромную благодарность [Стасу Спиридонову](https://twitter.com/stas_spiridonov) за помощь с мастерингом этого выпуска.
