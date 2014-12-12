@@ -1,0 +1,19 @@
+---
+layout: article
+title: Ruby NoName Podcast S06E20
+date: 2014-12-11
+comments: true
+published: true
+subtitle: Отчет с Rubyconf 2014
+---
+
+![img_4750](https://cloud.githubusercontent.com/assets/522155/5403801/6abdf51c-8190-11e4-8499-102519d1e35c.jpg)
+
+* [Rubyconf 2014](http://rubyconf.org/)
+* [Программа конференции](http://rubyconf.org/schedule)
+* [Записи докладов](http://confreaks.com/events/RubyConf2014)
+* [Фотоальбом Кира](https://www.facebook.com/shatrov/media_set?set=a.10204816711112580.1073741831.1082591060&type=3)
+
+******
+
+Мы выражаем огромную благодарность [Стасу Спиридонову](https://twitter.com/stas_spiridonov) за помощь с мастерингом этого выпуска.
