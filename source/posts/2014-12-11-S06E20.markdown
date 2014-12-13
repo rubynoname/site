@@ -10,6 +10,7 @@ subtitle: Отчет с Rubyconf 2014
 ![img_4750](https://cloud.githubusercontent.com/assets/522155/5403801/6abdf51c-8190-11e4-8499-102519d1e35c.jpg)
 
 * [Rubyconf 2014](http://rubyconf.org/)
+* [Про статически типизированный Руби](https://www.omniref.com/blog/blog/2014/11/17/matz-at-rubyconf-2014-will-ruby-3-dot-0-be-statically-typed/)
 * [Программа конференции](http://rubyconf.org/schedule)
 * [Записи докладов](http://confreaks.com/events/RubyConf2014)
 * [Фотоальбом Кира](https://www.facebook.com/shatrov/media_set?set=a.10204816711112580.1073741831.1082591060&type=3)
