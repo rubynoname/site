@@ -1,0 +1,20 @@
+---
+layout: article
+title: Ruby NoName Podcast S06E21
+date: 2014-12-31
+comments: true
+published: true
+subtitle: Итоги 2014
+---
+
+* [Умер Эзра @ezmobius, автор Merb, сооснователь Engine Yard](https://news.ycombinator.com/item?id=8676140)
+* [Rails 4.2](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)
+* [active form](https://github.com/rails/activeform)
+* [Ruby 2.2.0-preview2](http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/66550)
+* [Raptor оказался Phusion Passenger](http://blog.phusion.nl/2014/11/25/introducing-phusion-passenger-5-beta-1-codename-raptor/)
+* [active_emoji от @sferik](https://github.com/sferik/active_emoji)
+* [Язык](https://github.com/Ky6uk/PETOOH) [PETOOH](https://meduza.io/shapito/2014/12/09/peterburzhskiy-razrabotchik-sozdal-yazyk-programmirovaniya-petooh)
+
+******
+
+Мы выражаем огромную благодарность [Стасу Спиридонову](https://twitter.com/stas_spiridonov) за помощь с мастерингом этого выпуска.
