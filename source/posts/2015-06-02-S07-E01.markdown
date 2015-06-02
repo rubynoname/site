@@ -1,0 +1,26 @@
+---
+layout: article
+title: Ruby NoName Podcast S07E01
+date: 2015-06-02
+comments: true
+published: true
+subtitle: Михаил Клишин
+---
+
+## Михаил Клишин
+
+* [Профиль на Github](http://bit.ly/1noTFtw)
+* [Твиттер](http://bit.ly/1aJDWTa)
+
+### Ресурсы от Миши Клишина
+
+* [ClojureWerkz](http://bit.ly/1ekDee3)
+* [Cloud Foundry](http://cloudfoundry.org/)
+* [Docker](https://www.docker.com/)
+* [Pivotal](http://pivotal.io/)
+* [Pivotal Labs](http://pivotallabs.com/)
+* [Tammer Saleh](http://tammersaleh.com/)
+
+******
+
+Мы выражаем огромную благодарность [Стасу Спиридонову](https://twitter.com/stas_spiridonov) за помощь с мастерингом этого выпуска.
