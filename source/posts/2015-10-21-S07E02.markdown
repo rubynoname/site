@@ -1,10 +1,10 @@
 ---
 layout: article
 title: Ruby NoName Podcast S07E02
-date: 2015-20-21
+date: 2015-10-21
 comments: true
 published: true
-subtitle: RailsClub 2015: интевью с разработчиками Медузы
+subtitle: "RailsClub 2015: интервью с разработчиками Медузы"
 ---
 
 На [RailsClub 2015](http://railsclub.ru/) мы традиционно взяли интервью у спикеров конференции.
