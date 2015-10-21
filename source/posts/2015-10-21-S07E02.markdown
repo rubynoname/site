@@ -7,7 +7,7 @@ published: true
 subtitle: "RailsClub 2015: интервью с разработчиками Медузы"
 ---
 
-![Rubynoname podcast interview](https://pbs.twimg.com/media/CP1bhHPWoAEVvfv.jpg)
+![Rubynoname podcast interview](/images/photos/meduza.jpg)
 
 На [RailsClub 2015](http://railsclub.ru/) мы традиционно взяли интервью у спикеров конференции.
 Первое интервью было с разработчиками Медузы: Саматом Галимовым и Борей Горячеевым.
