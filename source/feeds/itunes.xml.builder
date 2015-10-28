@@ -1,3 +1,4 @@
+# encoding: utf-8
 xml.instruct! :xml, version: "1.0"
 
 xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", :version => "2.0" do
@@ -34,7 +35,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", :version
     end
 
     ### Episodes ###
-    blog.articles.each do |article|
+    blog.articles[0..49].each do |article|
 
       xml.item do
         xml.title  article.title
