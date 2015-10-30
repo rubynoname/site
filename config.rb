@@ -1,5 +1,4 @@
 require 'lib/feed_helpers'
-require 'mp3info'
 require 'json'
 
 activate :blog do |blog|
