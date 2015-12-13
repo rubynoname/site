@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Ruby NoName Podcast S07E04
-date: 2015-12-06
+date: 2015-12-13
 comments: true
 published: true
 subtitle: "RailsClub 2015: интервью с Claudio Baccigalupo"
