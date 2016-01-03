@@ -1,0 +1,21 @@
+---
+layout: article
+title: Ruby NoName Podcast S07E05
+date: 2016-01-03
+comments: true
+published: true
+subtitle: "RailsClub 2015: интервью с Sam Phippen"
+---
+
+![Rubynoname podcast interview](http://rubynoname.ru/images/photos/phippen.jpg)
+
+На [RailsClub 2015](http://railsclub.ru/) мы традиционно взяли интервью у спикеров конференции.
+Сэм рассказал нам о работе над RSpec и о том, выступить на десятке конференций в год и не потерять мотивацию.
+
+* [Первое интервью - с разработчиками Медузы](http://rubynoname.ru/posts/2015/S07E02.html)
+* [Второе интервью - с Koichi Sasada](http://rubynoname.ru/posts/2015/S07E03.html)
+* [Третье интервью - с Claudio Baccigalupo](http://rubynoname.ru/posts/2015/S07E04.html)
+
+******
+
+Мы выражаем огромную благодарность [Стасу Спиридонову](https://twitter.com/stas_spiridonov) за помощь с мастерингом этого выпуска.
