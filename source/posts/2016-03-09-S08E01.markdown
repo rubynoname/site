@@ -1,0 +1,47 @@
+---
+layout: article
+title: Ruby NoName Podcast S08E01
+date: 2016-03-09
+comments: true
+published: true
+subtitle: Антон Давыдов
+---
+
+![Anton Davydov](http://rubynoname.ru/images/photos/anton_davydov.jpg)
+
+
+В первом эпизоде этого года мы поговорили с Антоном Давыдовым про Google Summer of Code, Hanami и open source в целом.
+
+
+## Антон Давыдов
+* [Профиль на Github](https://github.com/davydovanton)
+* [Твиттер](https://twitter.com/anton_davydov/)
+
+## Moscow.rb
+* [Твиттер](https://twitter.com/moscowrb/)
+* [Сайт](http://moscow-rb.org/)
+
+## Rubyunderhood
+* [Твиттер](https://twitter.com/rubyunderhood/)
+* [Архив ведущих](https://rubyunderhood.ru/)
+
+## Hanami
+* [Luca Guidi](https://lucaguidi.com/)
+* [Official Page](http://hanamirb.org)
+* [Twitter](https://twitter.com/hanamirb)
+* [Ишью с лотус трендмарком](https://github.com/hanami/hanami/issues/445)
+
+## Ссылки
+* [Google Summer of Code 2016](https://developers.google.com/open-source/gsoc/timeline)
+* [Sidekiq](http://sidekiq.org/)
+* [Статья от Майка про зависимости](http://www.mikeperham.com/2016/02/09/kill-your-dependencies/)
+* [Как начать писать в опенсорс](https://twitter.com/yourfirstpr)
+
+## Книги
+[The Well-Grounded Rubyist](https://www.manning.com/books/the-well-grounded-rubyist)
+
+
+### Конференции
+* 19 марта. [Ruby Meditation 7 в Киеве](https://www.eventbrite.com/e/ruby-meditation-7-tickets-21351735616)
+* 2 апреля. [IT Global Meetup в Питере](http://piter-united.ru/itgm7/itgm.html). [Набираем](https://plus.google.com/+AndreyDeryabin/posts/4UmtDXC72Af) программу на ruby-островок.
+* 4-5 июня. [RubyC – Cамая большая ruby-конференция на Украине](http://rubyc.eu/)
