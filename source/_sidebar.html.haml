@@ -16,10 +16,13 @@
         = link_to article.title, article.url
 
 
-.block.railsclub
+.block.rubyconferenceby
+  %a{href: "http://rubyconference.by/", target: "_blank"}
+    = image_tag(image_path("/images/banners/rubyconferenceby_sidebar.jpg"), alt: "Rubyconference.by")
+
+.block.rubyc
   %a{href: "http://bit.ly/rubyc_2016", target: "_blank"}
     = image_tag(image_path("/images/banners/rubyc_sidebar.png"), alt: "RailsClub")
-
 
 .block.twitter-widget
   %a{class: "twitter-timeline", href: "https://twitter.com/rubynoname", 'data-widget-id' => "273075322386268161"} Tweets by @rubynoname
