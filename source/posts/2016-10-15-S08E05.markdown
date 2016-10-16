@@ -1,0 +1,25 @@
+---
+layout: article
+title: Ruby NoName Podcast S08E05
+date: 2016-10-15
+comments: true
+published: true
+subtitle: "RailsClub 2016: интервью с Иваном Немытченко"
+---
+
+В этом году мы записываем  серию подкастов  со спикерами конференции RailsClub 2016. 22 октября, Москва, подробности и регистрация на [сайте конференции](http://railsclub.ru/).
+
+В этот раз мы поговорили с Иваном Немытченко.
+
+![Иван Немытченко](https://avatars3.githubusercontent.com/u/9665?v=3&s=466)
+
+## Ссылки
+* [Профиль Ивана на Github](https://github.com/inem)
+* [Персональный сайт](http://inem.at)
+* [Проекты с RailsRumble](http://inem.github.io/)
+* [Tequila – HAML-like JSON generator](http://inem.github.io/tequila.html)
+* [Quiz - Ruby or Rails](http://railshurts.com/quiz/)
+* [Статистика Quiz](https://protected-retreat-8094.herokuapp.com/)
+* [HappyDev](http://happydev.ru/) - Теплая и ламповая ИТ-конференция
+
+Мы выражаем огромную благодарность [Лене Могильниковой](https://www.facebook.com/elena.voronina.5496) за помощь с организацией этого выпуска.

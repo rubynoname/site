@@ -1,0 +1,23 @@
+---
+layout: article
+title: Ruby NoName Podcast S08E06
+date: 2016-10-16
+comments: true
+published: true
+subtitle: "RailsClub 2016: интервью с Ильей Зыкиным"
+---
+
+В этом году мы записываем  серию подкастов  со спикерами конференции RailsClub 2016. 22 октября, Москва, подробности и регистрация на [сайте конференции](http://railsclub.ru/).
+
+В этот раз мы поговорили с Ильей Зыкиным.
+
+![Илья Зыкин](https://avatars2.githubusercontent.com/u/496713?v=3&s=466)
+
+## Ссылки
+* [Профиль Ильи на Github](https://github.com/the-teacher)
+* [Основной работодатель](https://www.toptal.com)
+* [Аркадий Забажанов](https://github.com/pyromaniac)
+* [Сhewy – Ruby обертка над ElasticSearch](https://github.com/toptal/chewy)
+* [Открытая кухня Анны Нечаевой](https://open-cook.ru/)
+
+Мы выражаем огромную благодарность [Лене Могильниковой](https://www.facebook.com/elena.voronina.5496) за помощь с организацией этого выпуска.
