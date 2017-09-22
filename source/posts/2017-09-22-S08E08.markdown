@@ -1,0 +1,20 @@
+---
+layout: article
+title: Ruby NoName Podcast S08E08
+date: 2017-10-22
+comments: true
+published: true
+subtitle: "RailsClub 2016: интервью с Akira Matsuda"
+---
+
+Разбирая архивы мы нашли неопубликованные эпизоды. Этот материал был записан во время RailsClub 2016. Но уже скоро [RailsClub 2017](http://railsclub.ru/).
+
+![](https://avatars1.githubusercontent.com/u/11493?v=3&s=466)
+
+## Ссылки
+* [Профиль на Github](https://github.com/amatsuda)
+* [Twitter](https://twitter.com/a_matsuda)
+* [Asakusa.rb](https://github.com/asakusarb)
+* [Kaminari](https://github.com/kaminari/kaminari)
+
+Мы выражаем огромную благодарность [Лене Могильниковой](https://www.facebook.com/elena.voronina.5496) за помощь с организацией этого выпуска.

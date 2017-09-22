@@ -1,0 +1,14 @@
+li.row
+  .col-sm-2
+    .time.bg-danger.text-white
+      span.month= event.start.strftime("%b")    
+      span.day= event.start.strftime("%d")
+      span.year= event.start.strftime("%Y")
+  .col-sm-3.my-auto.text-center
+    = image_tag event.conference.logo_url(:thumb_100)
+  .col-sm-7
+    .content
+      h3= link_to event.title, [event.conference, event]
+    .tags
+      - event.conference.tags.each do |tag|
+        span.badge.badge-info=tag.name
